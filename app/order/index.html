@@ -1,0 +1,1016 @@
+<html>
+<head>
+
+<style>
+    <meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 
+</style>
+<script>
+function jsFunction(value)
+{
+	//corporate product
+	var date = new Date();
+	var m = date.getMonth(), d = date.getDate(), y = date.getFullYear();
+	if(value == 'Credit Assessment Information Report'){
+		$("#Date_Of_Birth__c").datepicker('option', 'maxDate', new Date(y, m, d));
+	}else{
+		$("#Date_Of_Birth__c").datepicker('option', 'maxDate', new Date(y-18, m, d));
+	}
+}
+$(document).ready(function(){
+
+// get the current date
+var date = new Date();
+var m = date.getMonth(), d = date.getDate(), y = date.getFullYear()-18;
+	
+var $j = jQuery.noConflict();
+$( "#Date_Of_Birth__c" ).datepicker({ dateFormat: 'dd/mm/yy', 
+  changeMonth: true,
+  changeYear: true, 
+  yearRange:  '1900:2050',
+  maxDate: new Date(y, m, d),
+  onSelect: function(date) {
+            angular.element($('#Date_Of_Birth__c')).triggerHandler('change');
+      }
+  }).attr('readonly', 'readonly');
+ });
+ 
+ function check(e,value){
+ 
+    //Check Charater
+        var unicode=e.charCode? e.charCode : e.keyCode;
+        if (value.indexOf(".") != -1)if( unicode == 46 )return false;
+        if (unicode!=8)if((unicode<48||unicode>57)&&unicode!=46)return false;
+    }
+	
+	function checkRefNumLength() {
+		var fieldLength = document.getElementById('LenderReferenceNumber__c').value.length;
+		
+		if(fieldLength <= 8) {
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('LenderReferenceNumber__c').value;
+			str = str.substring(0, str.length - 1);
+			document.getElementById('LenderReferenceNumber__c').value = str;
+		}
+	}
+	
+	function checkRefNumLength1() {
+		var fieldLength = document.getElementById('LenderReferenceNumber__c').value.length;
+		
+		if(fieldLength <= 10) {
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('LenderReferenceNumber__c').value;
+			str = str.substring(0, str.length - 1);
+			document.getElementById('LenderReferenceNumber__c').value = str;
+		}
+	}
+	
+    function checkLength(){
+	
+		var fieldLength = document.getElementById('pinTxt').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength <= 6){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('pinTxt').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('pinTxt').value = str;
+		}
+    }
+	
+	function checkMobLength(){
+	//alert('hi')
+		var fieldLengthMob = document.getElementById('loanMob').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLengthMob <= 10){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanMob').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanMob').value = str;
+		}
+    }
+	
+	function checkAddMobLength(){
+	//alert('hi')
+		var fieldLengthAddMob = document.getElementById('loanAddMob').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLengthAddMob <= 10){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanAddMob').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanAddMob').value = str;
+		}
+    }
+	
+	function checkLenMobLength(){
+	//alert('hi')
+		var fieldLengthLenMob = document.getElementById('channelPartnerMobile').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLengthLenMob <= 10){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('channelPartnerMobile').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('channelPartnerMobile').value = str;
+		}
+    }
+	function checkBorMobLength(){
+	//alert('hi')
+		var fieldLengthBorMob = document.getElementById('salesExecutiveMobile').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLengthBorMob <= 10){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('salesExecutiveMobile').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('salesExecutiveMobile').value = str;
+		}
+    }
+	
+	function checkDinLength(){
+		var fieldLength1 = document.getElementById('loanDin').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength1 <= 8){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanDin').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanDin').value = str;
+		}
+	}
+	
+	function checkDin1Length(){
+		var fieldLength2 = document.getElementById('loanDin1').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength2 <= 8){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanDin1').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanDin1').value = str;
+		}
+	}
+	function checkDin1Length(){
+		var fieldLength2 = document.getElementById('loanDin1').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength2 <= 8){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanDin1').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanDin1').value = str;
+		}
+	}
+	function checkDin2Length(){
+		var fieldLength3 = document.getElementById('loanDin2').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength3 <= 8){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanDin2').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanDin2').value = str;
+		}
+	}
+	function checkDin3Length(){
+		var fieldLength2 = document.getElementById('loanDin3').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength2 <= 8){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanDin3').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanDin3').value = str;
+		}
+	}
+	
+	function checkDin4Length(){
+		var fieldLength2 = document.getElementById('loanDin4').value.length;
+		//Suppose u want 4 number of character
+		if(fieldLength2 <= 8){
+			return true;
+		}
+		else
+		{
+			var str = document.getElementById('loanDin4').value;
+			str = str.substring(0, str.length - 1);
+		document.getElementById('loanDin4').value = str;
+		}
+	}
+	
+</script>
+</head>
+<body>
+<div class="form-container">
+<form  name="userForm1">
+<div class="row" >
+        <div class="col-lg-12">
+		
+		
+			
+			
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse" data-target="#pdtinfo"><b>Product Information<b></div>
+                <div id="pdtinfo" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-4" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.Product.$invalid && (userForm1.Product.$dirty || submitted)}">
+									<label for="Name">Product <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+                                    	<select name="Product" ng-model="vm.Order.ProductOrdered__c" class="form-control" onchange="jsFunction(this.value);" required>
+										  <!--<option value="SalariedInformation">Salaried Information</option>
+										  <option value="SalariedCreditEvaluation">Salaried Credit Evaluation</option>
+										  <option value="OrderIncomeTaxReport">Order Income TaxReport	</option>
+										  <option value="SelfemployedInformation">Self employed Information</option>-->
+										   <!-- <option value="SelfEmployedCreditEvaluation">Self Employed Credit Evaluation</option>
+										  <option value="Salaried Credit Evaluation">Salaried Credit Evaluation</option>
+										<option value="OrderNonTraditionalReport">Order Non Traditional Report</option>-->
+										  <option value="" disabled>Select Product</option>
+										  <!--<option value="Salaried Information">Salaried Information</option>
+										  <option value="Salaried Credit Evaluation">Salaried Credit Evaluation</option>
+										  <option value="SelfEmployedCreditEvaluation">SE Individuals < 25 lacs – HL</option>
+										  <option value="Self Employed Information">SE Individual > 25 lacs HL & All Amount ML / SME</option>
+										  <option value="Credit Assessment Information Report">Non Individual - SME & ML</option>-->
+										  <option value="Salaried Credit Evaluation">Salaried Credit Evaluation</option>
+										  <option value="SelfEmployedCreditEvaluation">SelfEmployedCreditEvaluation</option>
+										  <option value="Credit Assessment Information Report">Credit Assessment Information Reportl</option>
+										</select>
+									</div>
+								<p ng-show="userForm1.Product.$error.required && (userForm1.Product.$dirty || submitted)" class="help-block">Select Product</p>
+							</div>
+						</div>
+							
+							<div class="col-sm-4" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.DataPull.$invalid && (userForm1.DataPull.$dirty || submitted)}">
+									<label for="Name">Data Extraction by <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-cd"></i></span>
+                                    	<!-- <select id="bankgroup" class="form-control" ng-model="branch" ng-options="o.Id as o.Name for o in vm.lookups | filter:{ Type : 'branch'}" ng-disabled="vm.lookup.Type == 'bank'">
+											</select> -->
+										<select name="DataPull" value="CSR Assisted" ng-model="vm.Order.DataPullOptionChosen__c" class="form-control" required>
+										  <!--<option value="SelfServiceOnly">SelfService Only</option>
+										  <option value="SelfServiceOverride">SelfService Override</option>
+										  <option value="AssistedOnly">Assisted Only</option>
+										  <option value="AssistedOverride">AssistedOverride</option>-->
+										  <!--<option value="Self Service">Self Service</option>-->
+										  <!-- <option value="">Select Data Extraction</option> -->
+										  <option  value="" disabled>Select Data Extraction</option>
+										  <option  value="CSR Assisted">CSR Assisted</option>
+										  <!--<option value="Self Service">Self Service</option>-->
+										  <option value="Lender Assisted">Lender Assisted</option>
+										 
+										</select>	
+									
+									</div>
+								<p ng-show="userForm1.DataPull.$error.required && (userForm1.DataPull.$dirty || submitted)" class="help-block">Select Data Extraction Type</p>
+							</div>
+						</div>
+							
+                        </div>
+						
+						
+						
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			
+            <div class="panel panel-default">
+				<div class="panel-heading panel-heading-custom" data-toggle="collapse" data-target="#lender"><b>Lender Order Information<b></div>
+				<div id="lender" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.refNo.$invalid && (userForm1.refNo.$dirty || submitted)}">
+                                 <label for="LenderReferenceNumber__c">Sales Reference Number <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-alphabet"></i></span>
+                                    	<input ng-if="vm.Order.DataPullOptionChosen__c=='CSR Assisted'" style="font-weight:normal;" type="text" id="LenderReferenceNumber__c" name="refNo" class="form-control"   ng-model="vm.Order.LenderReferenceNumber__c" ng-pattern="/^[a-zA-Z0-9]*$/" ng-maxlength="20"  placeholder="Enter lender Ref Number" required />
+										<input ng-if="vm.Order.DataPullOptionChosen__c=='Lender Assisted'" style="font-weight:normal;" type="text" id="LenderReferenceNumber__c" name="refNo" class="form-control"   ng-model="vm.Order.LenderReferenceNumber__c" ng-pattern="/^[a-zA-Z0-9]*$/" ng-maxlength="20"  placeholder="Enter lender Ref Number" required />
+										<input ng-hide="vm.Order.DataPullOptionChosen__c=='Lender Assisted' || vm.Order.DataPullOptionChosen__c=='CSR Assisted'"style="font-weight:normal;" type="text" id="LenderReferenceNumber__c" name="refNo" class="form-control"  ng-model="vm.Order.LenderReferenceNumber__c" ng-pattern="/^[a-z0-9]*$/i" ng-maxlength="20"  placeholder="Enter lender Ref Number" required />
+									</div>
+									<p ng-show="userForm1.refNo.$error.required && (userForm1.refNo.$dirty || submitted)" class="help-block">Please Enter Reference Number</p>
+									<p ng-show="userForm1.refNo.$error.pattern && vm.Order.DataPullOptionChosen__c=='CSR Assisted' && (userForm1.refNo.$dirty || submitted)" class="help-block">Reference Number allows only 20 characters</p>
+									<p ng-show="userForm1.refNo.$error.pattern && vm.Order.DataPullOptionChosen__c=='Lender Assisted' && (userForm1.refNo.$dirty || submitted)" class="help-block">Reference Number allows only 20 characters</p>
+									<p ng-show="userForm1.refNo.$error.maxlength && vm.Order.DataPullOptionChosen__c=='CSR Assisted' && (userForm1.refNo.$dirty || submitted)" class="help-block">Reference Number allows only 20 characters</p>
+									<p ng-show="userForm1.refNo.$error.maxlength && vm.Order.DataPullOptionChosen__c=='Lender Assisted' && (userForm1.refNo.$dirty || submitted)" class="help-block">Reference Number allows only 20 characters</p>
+								</div>
+                            </div>
+							
+							<div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.region.$invalid && (userForm1.region.$dirty || submitted)}">
+                                 <label for="Name">Division <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-tree-conifer"> </i></span>
+                                    	
+										<select id="bankgroup" class="form-control" name="region" ng-model="vm.Order.Region__c" ng-options="o.DivBranchID as o.DivBranchName for o in vm.userDivisions" ng-change="vm.getBranches(vm.Order.Region__c)" required>
+											<option value="" disabled>Select Division</option>
+											</select>
+									</div>
+									<p ng-show="userForm1.region.$error.required && (userForm1.region.$dirty || submitted)" class="help-block">Select Region</p>
+                                </div>
+                            </div>
+							<div class="col-sm-4" >
+                               <div class="form-group" ng-class="{'has-error' : userForm1.branch.$invalid && (userForm1.branch.$dirty || submitted)}">
+                                  <label for="Name">Branch <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-tree-deciduous"> </i></span>
+                                    	 <select id="bankgroup" class="form-control" name="branch" ng-model="vm.Order.Branch__c" ng-options="o.DivBranchID as o.DivBranchName for o in vm.userBranches" ng-disabled="vm.Order.Region__c==null" required>
+											<option value="" disabled>Select Branch</option>
+											</select>
+									</div>
+									<p ng-show="userForm1.branch.$error.required && (userForm1.branch.$dirty || submitted)" class="help-block">Select Branch</p>
+                                </div>
+                            </div>
+                        </div>
+						
+						
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			
+			<div class="panel panel-default" >
+				<div class="panel-heading" data-toggle="collapse" data-target="#lenderPer" ng-hide="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'"><b >Personal Information<b></div>
+				<div class="panel-heading panel-default" style="background-color:#f2f2f2;" data-toggle="collapse" data-target="#lenderPer" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'"><b>Company / Partnership information<b></div>
+				 
+                <div id="lenderPer" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+						<div class="row" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'">
+							<div class="col-sm-9" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.compN.$invalid && (userForm1.compN.$dirty || submitted)}">
+                                <label for="">Partnership / Company Name <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                    	<input style="font-weight:normal;"  type="text" id="PartnershipOrCompanyName__c" name="compN" class="form-control" ng-model="vm.Order.PartnershipOrCompanyName__c" ng-maxlength="100" placeholder="Enter PartnerShip/CompanyName" ng-required="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'"/>
+									</div>
+									<p ng-show="userForm1.compN.$error.required && (userForm1.compN.$dirty || submitted)" class="help-block">Please Enter Partnership / Company Name</p>
+									<p ng-show="userForm1.compN.$error.maxlength && (userForm1.compN.$dirty || submitted)" class="help-block">Partnership / CompanyName allows only 100 characters</p>
+									<!-- <p ng-show="userForm1.compN.$error.pattern && (userForm1.compN.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p> -->
+								</div>
+                           </div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'">
+							  <div class="form-group" ng-class="{'has-error' : userForm1.borFirstName.$invalid && (userForm1.borFirstName.$dirty || submitted)}">
+                                <label for=" Borrower_First_Name__c">Borrower First Name <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+                                    	<input style="font-weight:normal;" type="text"  name="borFirstName" class="form-control"  ng-model="vm.Order.Borrower_First_Name__c" ng-pattern ="/^[a-zA-Z\s]*$/" ng-maxlength="25" placeholder="Enter First Name"  ng-required="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'" />
+									</div>
+									<p ng-show="userForm1.borFirstName.$error.required && (userForm1.borFirstName.$dirty || submitted)" class="help-block">Please Enter Borrower First Name</p>
+									<p ng-show="userForm1.borFirstName.$error.pattern && (userForm1.borFirstName.$dirty || submitted)" class="help-block">Please Enter only Alphabets </p>
+									<p ng-show="userForm1.borFirstName.$error.maxlength && (userForm1.borFirstName.$dirty || submitted)" class="help-block">Borrower First Name allows only 25 characters </p>
+								</div>
+                            </div>
+                            <div class="col-sm-3" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.midName.$invalid && (userForm1.midName.$dirty || submitted)}">
+                                <label for="Borrower_Middle_Name__c">Borrower Middle Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+                                       	<input style="font-weight:normal;" type="text" id="Borrower_Middle_Name__c " name="midName" class="form-control" ng-model="vm.Order.Borrower_Middle_Name__c " ng-pattern ="/^[a-zA-Z\s]*$/" ng-maxlength="25" placeholder="Enter Middle Name" />
+									</div>
+                                 <p ng-show="userForm1.midName.$error.required && (userForm1.midName.$dirty || submitted)" class="help-block">Please Enter Borrower Middle Name</p>
+								 <p ng-show="userForm1.midName.$error.pattern && (userForm1.midName.$dirty || submitted)" class="help-block">Please Enter only Alphabets </p>
+								 <p ng-show="userForm1.midName.$error.maxlength && (userForm1.midName.$dirty || submitted)" class="help-block">Borrower Middle Name allows only 25 characters </p>
+								</div>
+                            </div>
+							<div class="col-sm-3" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.borLastName.$invalid && (userForm1.borLastName.$dirty || submitted)}">
+                                <label for="Borrower_Last_Name__c">Borrower Last Name<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="borLastName" class="form-control" ng-model="vm.Order.Borrower_Last_Name__c" ng-pattern ="/^[a-zA-Z\s]*$/" ng-maxlength="25" placeholder="Enter Last Name" ng-required="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'" />
+									</div>
+                                  <p ng-show="userForm1.borLastName.$error.required && (userForm1.borLastName.$dirty || submitted)" class="help-block">Please Enter Borrower Last Name</p>
+								  <p ng-show="userForm1.borLastName.$error.pattern && (userForm1.borLastName.$dirty || submitted)" class="help-block">Please Enter only Alphabets </p>
+								  <p ng-show="userForm1.borLastName.$error.maxlength && (userForm1.borLastName.$dirty || submitted)" class="help-block">Borrower Last Name allows only 25 characters </p>
+								</div>
+                            </div>
+							
+                        </div>
+						<div class="row">
+                             <div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.borDOb.$invalid && (userForm1.borDOb.$dirty || submitted)}">
+                                <label for=" Date_Of_Birth__c" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'">Date of Incorporation<span style="color:red">*</span></label>
+								<label for=" Date_Of_Birth__c" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'">Date of Birth <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" id="Date_Of_Birth__c" name="borDOb" class="form-control" ng-model="vm.Order.Date_Of_Birth__c" placeholder="Enter DD/MM/YYYY Format" required />
+									</div>
+									<p ng-show="userForm1.borDOb.$error.required && (userForm1.borDOb.$dirty || submitted)" class="help-block">Select DOB</p>
+                                </div>
+						</div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.panNo.$invalid && (userForm1.panNo.$dirty || submitted)}">
+                                <label for="Loan_Applicant_PAN__c">PAN<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                       <input style="font-weight:normal;" type="text" id="Loan_Applicant_PAN__c" name="panNo" class="form-control" ng-model="vm.Order.Loan_Applicant_PAN__c" ng-pattern="/[A-Z]{5}\d{4}[A-Z]{1}/" maxlength="10" placeholder="Enter PAN Number" required />
+									</div>
+									<p ng-show="userForm1.panNo.$error.required && (userForm1.panNo.$dirty || submitted)" class="help-block">Please Enter PAN Number</p>
+									<p ng-show="userForm1.panNo.$error.pattern && (userForm1.panNo.$dirty || submitted)" class="help-block">PAN No. Should be only numbers and Uppercase Letters.</p>
+								</div>
+                           </div>
+						   
+							<div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.contEmail.$invalid && (userForm1.contEmail.$dirty || submitted)}">
+                                <label for=" Loan_Applicant_Email__c">Contact email<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-envelope"></i></span>
+                                    	<input style="font-weight:normal;" type="email" id="" name="contEmail" class="form-control" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" ng-model="vm.Order.Loan_Applicant_Email__c " placeholder="Enter Email" required/>
+									</div>
+									<p ng-show="userForm1.contEmail.$error.required && (userForm1.contEmail.$dirty || submitted)" class="help-block">Please Enter Email Id</p>
+									<p ng-show="userForm1.contEmail.$error.pattern && (userForm1.contEmail.$dirty || submitted)" class="help-block">Please enter a valid email.</p>
+								</div>
+                           </div>
+						 </div>
+						 
+						 <div class="row">
+							<div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.addEmail.$invalid && (userForm1.addEmail.$dirty || submitted)}">
+                                <label for="">Additional Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-envelope"></i></span>
+                                       <input style="font-weight:normal;" type="email" id="" name="addEmail" class="form-control" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" ng-model="vm.Order.Additional_Email__c" placeholder="Enter Additional Email"  />
+									</div>
+									<p ng-show="userForm1.addEmail.$error.pattern && (userForm1.addEmail.$dirty || submitted)" class="help-block">Please enter a valid email.</p>
+								</div>
+						</div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.borMobile.$invalid && (userForm1.borMobile.$dirty || submitted)}">
+                                <label for="Loan_Applicant_Mobile__c">Contact Mobile<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-phone"></i></span>
+                                       	<input style="font-weight:normal;" type="number" id="loanMob" name="borMobile" class="form-control" ng-model="vm.Order.Loan_Applicant_Mobile__c " ng-pattern="/^[1-9]{1}[0-9]{9}$/" ng-minlength="10" maxlength="10" onKeyPress="return check(event,value)" onInput="checkMobLength()"  placeholder="Enter Mobile Number" required />
+									</div>
+									<p ng-show="userForm1.borMobile.$error.required && (userForm1.borMobile.$dirty || submitted)" class="help-block">Please Enter Valid Mobile Number</p>
+									<p ng-show="userForm1.borMobile.$error.pattern && (userForm1.borMobile.$dirty || submitted)" class="help-block">Phone No. Should be only numbers and should not start with a zero.</p>
+									<p ng-show="userForm1.borMobile.$error.minlength && (userForm1.borMobile.$dirty || submitted)" class="help-block">Phone No. Should not be less than 10 digits.</p>
+									<p ng-show="userForm1.borMobile.$error.maxlength && (userForm1.borMobile.$dirty || submitted)" class="help-block">Phone No. Should not exceed 10 digits.</p>
+								</div>
+                           </div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.addMobile.$invalid && (userForm1.addMobile.$dirty || submitted)}">
+                                <label for="Additional_Mobile__c">Additional Mobile</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-phone-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="number" id="loanAddMob" name="addMobile" class="form-control" ng-model="vm.Order.Additional_Mobile__c" ng-pattern="/^[1-9]{1}[0-9]{9}$/" ng-minlength="10" maxlength="10" onKeyPress="return check(event,value)" onInput="checkAddMobLength()" placeholder="Enter Mobile Number" />
+									</div>
+									<p ng-show="userForm1.addMobile.$error.required && (userForm1.addMobile.$dirty || submitted)" class="help-block">Please Enter Valid Mobile Number</p>
+									<p ng-show="userForm1.addMobile.$error.pattern && (userForm1.addMobile.$dirty || submitted)" class="help-block">Phone No. Should be only numbers and should not start with a zero.</p>
+									<p ng-show="userForm1.addMobile.$error.minlength && (userForm1.addMobile.$dirty || submitted)" class="help-block">Phone No. Should not be less than 10 digits.</p>
+									<p ng-show="userForm1.addMobile.$error.maxlength && (userForm1.addMobile.$dirty || submitted)" class="help-block">Phone No. Should not exceed 10 digits.</p>
+								</div>
+                           </div>
+						 </div>
+						 <div class="row">
+							<div class="col-sm-3" >
+                                 <div class="form-group" ng-class="{'has-error' : userForm1.borLanguage.$invalid && (userForm1.borLanguage.$dirty || submitted)}">
+									<label for="Name">Borrower Language </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-subtitles"></i></span>
+                                    	<!-- <select id="bankgroup" class="form-control" ng-model="branch" ng-options="o.Id as o.Name for o in vm.lookups | filter:{ Type : 'branch'}" ng-disabled="vm.lookup.Type == 'bank'">
+											</select> -->
+										<select name="borLanguage" ng-model="vm.Order.Borrowerlanguage__c" class="form-control">
+										  <option value="" disabled>Select Language</option>
+										  <option value="Assamese">Assamese</option>
+										  <option value="Bengali">Bengali</option>
+										  <!--<option value="English">English</option>-->
+										  <option value="Gujarati">Gujarati</option>
+										  <option value="Hindi">Hindi</option>
+										  <option value="Kannada">Kannada</option>
+										  <option value="Marathi">Marathi</option>
+										  <option value="Malayalam">Malayalam</option>
+										  <!--<option value="Nepali">Nepali</option>-->
+										  <option value="Oriya">Oriya</option>
+										  <option value="Punjabi">Punjabi</option>
+										  <option value="Telugu">Telugu</option>
+										  <option value="Tamil">Tamil</option>
+										  
+										</select>	
+									
+									</div>
+									<p ng-show="userForm1.borLanguage.$error.required && (userForm1.borLanguage.$dirty || submitted)" class="help-block">Select Language</p>
+								</div>
+							</div>
+							<div class="col-sm-3" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dinNo.$invalid && (userForm1.dinNo.$dirty || submitted)}">
+                                <label for="">DIN Number</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                    	<input style="font-weight:normal;" type="text" id="loanDin" name="dinNo" class="form-control" ng-model="vm.Order.DIN_Number__c" pattern="[0-9]*" ng-minlength="8" maxlength="8" onKeyPress="return check(event,value)" onInput="checkDinLength()" placeholder="Enter DIN Number" />
+									</div>
+									<p ng-show="userForm1.dinNo.$error.required && (userForm1.dinNo.$dirty || submitted)" class="help-block">Please Enter Valid DIN Number</p>
+									<p ng-show="userForm1.dinNo.$error.pattern && (userForm1.dinNo.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p>
+									<p ng-show="userForm1.dinNo.$error.minlength && (userForm1.dinNo.$dirty || submitted)" class="help-block">DIN No. Should not be less than 8 digits.</p>
+								</div>
+                           </div>
+						   <div class="col-sm-3" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.cinNo.$invalid && (userForm1.cinNo.$dirty || submitted)}">
+                                <label for="">CIN / LLPIN</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                    	<input style="font-weight:normal;" type="text" id="CIN_LLPIN__c" name="cinNo" class="form-control" ng-model="vm.Order.CIN_LLPIN__c" ng-pattern="/^[a-zA-Z0-9-]*$/" ng-maxlength="25" placeholder="Enter CIN / LLP Number" />
+									</div>
+			
+									<p ng-show="userForm1.cinNo.$error.pattern && (userForm1.cinNo.$dirty || submitted)" class="help-block">Please Enter Alpha Numeric Characters only</p>
+									<p ng-show="userForm1.cinNo.$error.maxlength && (userForm1.cinNo.$dirty || submitted)" class="help-block">CIN/LLPIN Number allows 25 Characters only</p>
+									<!-- <p ng-show="userForm1.cinNo.$error.pattern && (userForm1.cinNo.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p> -->
+								</div>
+                           </div>
+						  
+                          
+						</div>
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse" data-target="#lenderAdd"><b>Contact Information<b></div>
+                <div id="lenderAdd" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.streetDet.$invalid && (userForm1.streetDet.$dirty || submitted)}">
+									<label for="Loan_Applicant_Street__c">Street</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-map-marker"></i></span>
+                                    	<input style="font-weight:normal;" type="text" id="Loan_Applicant_Street__c" name="streetDet" class="form-control" ng-maxlength="200" ng-model="vm.Order.Loan_Applicant_Street__c" placeholder="Enter Street" />
+									</div>
+									<p ng-show="userForm1.streetDet.$error.required && (userForm1.streetDet.$dirty || submitted)" class="help-block">Please Enter Street Name</p>
+									<p ng-show="userForm1.streetDet.$error.maxlength && (userForm1.streetDet.$dirty || submitted)" class="help-block">Street Name should not exceed 200 characters</p>
+								</div>
+							</div>
+                            <div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.cityDet.$invalid && (userForm1.cityDet.$dirty || submitted)}">
+									<label for=" Loan_Applicant_City__c">City</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-map-marker"></i></span>
+                                    	<input style="font-weight:normal;" type="text" id="Loan_Applicant_City__c " name="cityDet" ng-pattern ="/^[a-zA-Z\s]*$/" class="form-control" ng-maxlength="20" ng-model="vm.Order.Loan_Applicant_City__c " placeholder="Enter City" />
+									</div>
+									<p ng-show="userForm1.cityDet.$error.required && (userForm1.cityDet.$dirty || submitted)" class="help-block">Please Enter City</p>
+									<p ng-show="userForm1.cityDet.$error.pattern && (userForm1.cityDet.$dirty || submitted)" class="help-block">Please Enter only Alphabets</p>
+									<p ng-show="userForm1.cityDet.$error.maxlength && (userForm1.cityDet.$dirty || submitted)" class="help-block">City Name Should not exceed 20 characters</p>
+								</div>
+							</div>
+							<div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.state.$invalid && (userForm1.state.$dirty || submitted)}">
+									<label for="Loan_Applicant_State__c">State</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-grain"></i></span>
+                                     <select name="state" ng-model="vm.Order.Loan_Applicant_State__c" class="form-control">
+											 <option value="" disabled>Select State</option>
+											 <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands </option>
+											 <option value="Andhra Pradesh">Andhra Pradesh</option>
+											 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+											 <option value="Assam">Assam</option>
+											 <option value="Bihar">Bihar</option>
+											 <option value="Chandigarh">Chandigarh</option>
+											 <option value="Chhattisgarh">Chhattisgarh</option>
+											 <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option> 
+											 <option value="Daman and Diu">Daman and Diu</option>
+											  <option value="Delhi">Delhi</option> 
+											 <option value="Goa">Goa</option>
+											 <option value="Gujarat">Gujarat</option>
+											 <option value="Haryana">Haryana</option>
+											 <option value="Himachal Pradesh">Himachal Pradesh</option>
+											 <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+											 <option value="Jharkhand">Jharkhand</option>
+											 <option value="Karnataka">Karnataka</option>
+											 <option value="Kerala">Kerala</option>
+											 <option value="Lakshadweep">Lakshadweep</option>
+											 <option value="Madhya Pradesh">Madhya Pradesh</option>
+											 <option value="Maharashtra">Maharashtra</option>
+											 <option value="Manipur">Manipur</option>
+											 <option value="Meghalaya">Meghalaya</option>
+											 <option value="Mizoram">Mizoram</option>
+											 <option value="Nagaland">Nagaland</option>
+											 <option value="Odisha">Odisha</option>
+											 <option value="Punjab">Punjab</option>
+											 <option value="Puducherry">Puducherry</option>
+											 <option value="Rajasthan">Rajasthan</option>
+											 <option value="Sikkim">Sikkim</option>
+											 <option value="Tamil Nadu">Tamil Nadu</option>
+											 <option value="Telangana">Telangana</option>
+											 <option value="Tripura">Tripura</option>
+											 <option value="Uttarakhand">Uttarakhand</option>
+											 <option value="Uttar Pradesh">Uttar Pradesh</option>
+											 <option value="West Bengal">West Bengal</option>
+										</select>
+									 </div>
+                                 <p ng-show="userForm1.state.$error.required && (userForm1.state.$dirty || submitted)" class="help-block">Select State</p>
+							</div>
+						</div>
+                            
+                        </div>
+					<div class="row">
+                            <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.country.$invalid && (userForm1.country.$dirty || submitted)}">
+									<label for="Loan_Applicant_Country__c">Country</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-globe"></i></span>
+                                    	<select name="country" ng-model="vm.Order.Loan_Applicant_Country__c" class="form-control">
+										  <option  value="" disabled>Select Country</option>
+										  <option  value="India">India</option>
+										</select>
+									 </div>
+									<p ng-show="userForm1.country.$error.required && (userForm1.country.$dirty || submitted)" class="help-block">Select country</p>
+							</div>
+						</div>
+							
+							<div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.pin.$invalid && (userForm1.pin.$dirty || submitted)}">
+									<label for="">PIN Code</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                    	<input style="font-weight:normal;" id="pinTxt" type="text" name="pin" class="form-control" ng-model="vm.Order.Loan_Applicant_Pin_Code__c" pattern="[0-9]*" ng-minlength="6"  maxlength="6" onKeyPress="return check(event,value)" onInput="checkLength()" placeholder="Enter Pin Code"/>
+									</div>
+									<p ng-show="userForm1.pin.$error.required && (userForm1.pin.$dirty || submitted)" class="help-block">Enter PIN Number</p>
+									<p ng-show="userForm1.pin.$error.pattern && (userForm1.pin.$dirty || submitted)" class="help-block"> Pincode should be only numbers and should not exceed 6 digits.</p>
+									<p ng-show="userForm1.pin.$error.minlength && (userForm1.pin.$dirty || submitted)" class="help-block"> Pincode should be atleast 6 digits.</p>
+                            </div>
+						</div>
+							
+						<div class="col-sm-3">
+                                <label for="additional">Additional Info</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-subtitles"></i> </span>
+                                    	<textArea style="font-weight:normal;" name="additional" cols="50"  class="form-control" ng-model="vm.Order.FF_Additional_Info__c" />
+									</div>
+                            </div>
+					</div>
+						
+						
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			<div class="panel panel-default" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'">
+				<div class="panel-heading" data-toggle="collapse" data-target="#channel2"><b>Directors Information<b></div>
+                <div id="channel2" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+						<div class="row">
+                             <div class="col-sm-3" >
+                               <div class="form-group" ng-class="{'has-error' : userForm1.dirNme1.$invalid && (userForm1.dirNme1.$dirty || submitted)}">
+                                <label for="directorName1"> Director</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="dirNme1" class="form-control" ng-model="vm.Order.DirectorName1__c" ng-maxlength="60" placeholder="Enter Director Name"  />
+									</div>
+									<p ng-show="userForm1.dirNme1.$error.maxlength && (userForm1.dirNme1.$dirty || submitted)" class="help-block">Director Name allows only 60 characters </p>
+								</div>
+                            </div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dirDin1.$invalid && (userForm1.dirDin1.$dirty || submitted)}">
+                                <label for="din1"> DIN </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                       <input style="font-weight:normal;" type="text" id="loanDin1" name="dirDin1" class="form-control" ng-model="vm.Order.DirectorDIN1__c" pattern="[0-9]*" ng-minlength="8" maxlength="8" onKeyPress="return check(event,value)" onInput="checkDin1Length()" placeholder="Enter Director DIN" ng-disabled="vm.Order.DirectorName1__c==null" />
+									</div>
+									<p ng-show="userForm1.dirDin1.$error.pattern && (userForm1.dirDin1.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p>
+									<p ng-show="userForm1.dirDin1.$error.minlength && (userForm1.dirDin1.$dirty || submitted)" class="help-block">DIN No. Should not be less than 8 digits.</p>
+								</div>
+                            </div>
+							<div class="col-sm-3" ng-hide="vm.Order.DirectorDIN2__c!=null">
+							</br>
+                                <label for="directorAdd2"> </label>
+                                     <button id="mybutton" ng-click="vm.showDir2()" ng-show="vm.Order.DirectorDIN1__c!=null"> +Add</button>
+                            </div>
+							<!-- <div class="col-sm-2"> -->
+							<!-- </br> -->
+                                <!-- <label for="dirDelBut2"></label> -->
+                                     <!-- <button ng-click="vm.deleteDir1()" ng-show="vm.Order.DirectorDIN1__c!=null">Clear</button> -->
+                            <!-- </div> -->
+							
+						 </div></br>
+						 <div class="row" ng-show="myDir2" ng-hide="delDir2">
+                             <div class="col-sm-3">
+                               <div class="form-group" ng-class="{'has-error' : userForm1.dirNme2.$invalid && (userForm1.dirNme2.$dirty || submitted)}">
+                                <label for=" directorName2">Director</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="dirNme2" class="form-control" ng-model="vm.Order.DirectorName2__c" ng-maxlength="60" placeholder="Enter Director Name" />
+									</div>
+									<p ng-show="userForm1.dirNme2.$error.maxlength && (userForm1.dirNme2.$dirty || submitted)" class="help-block">Director Name allows only 60 characters </p>
+								</div>
+                            </div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dirDin2.$invalid && (userForm1.dirDin2.$dirty || submitted)}">
+                                <label for="din2"> DIN </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                       <input style="font-weight:normal;" type="text" id="loanDin2" name="dirDin2" class="form-control" ng-model="vm.Order.DirectorDIN2__c" pattern="[0-9]*" ng-minlength="8" maxlength="8" onKeyPress="return check(event,value)" onInput="checkDin2Length()" placeholder="Enter Director DIN" ng-disabled="vm.Order.DirectorName2__c==null"/>
+									</div>
+									<p ng-show="userForm1.dirDin2.$error.pattern && (userForm1.dirDin2.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p>
+									<p ng-show="userForm1.dirDin2.$error.minlength && (userForm1.dirDin2.$dirty || submitted)" class="help-block">DIN No. Should not be less than 8 digits.</p>
+								</div>
+                            </div>
+							<div class="col-sm-3" ng-hide="vm.Order.DirectorDIN3__c!=null">
+							</br>
+                                <label for="directorAdd3"></label>
+                                     <button id="mybutton" ng-click="vm.showDir3()" ng-show="vm.Order.DirectorDIN2__c!=null"> +Add</button>
+                            </div>
+							<div class="col-sm-2">
+							</br>
+                                <label for="dirDelBut2"></label>
+                                     <button ng-click="vm.deleteDir2()">Delete</button>
+                            </div>
+							
+						 </div></br>
+						 <div class="row" ng-show="myDir3" ng-hide="delDir3">
+                             <div class="col-sm-3"  >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dirNme3.$invalid && (userForm1.dirNme3.$dirty || submitted)}">
+                                <label for=" directorName3"> Director</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="dirNme3" class="form-control" ng-model="vm.Order.DirectorName3__c" ng-maxlength="60" placeholder="Enter Director Name"  />
+									</div>
+									<p ng-show="userForm1.dirNme3.$error.maxlength && (userForm1.dirNme3.$dirty || submitted)" class="help-block">Director Name allows only 60 characters </p>
+								</div>
+                            </div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dirDin3.$invalid && (userForm1.dirDin3.$dirty || submitted)}">
+                                <label for="din3"> DIN </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                       <input style="font-weight:normal;" type="text" id="loanDin3" name="dirDin3" class="form-control" ng-model="vm.Order.DirectorDIN3__c" pattern="[0-9]*" ng-minlength="8" maxlength="8" onKeyPress="return check(event,value)" onInput="checkDin3Length()" placeholder="Enter Director DIN" ng-disabled="vm.Order.DirectorName3__c==null" />
+									</div>
+									<p ng-show="userForm1.dirDin3.$error.pattern && (userForm1.dirDin3.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p>
+									<p ng-show="userForm1.dirDin3.$error.minlength && (userForm1.dirDin3.$dirty || submitted)" class="help-block">DIN No. Should not be less than 8 digits.</p>
+								</div>
+                            </div>
+							<div class="col-sm-3" ng-hide="vm.Order.DirectorDIN4__c!=null">
+							</br>
+                                <label for="directorAdd4"> </label>
+                                     <button id="mybutton" ng-click="vm.showDir4()" ng-show="vm.Order.DirectorDIN3__c!=null"> +Add</button>
+                            </div>
+							<div class="col-sm-2">
+							</br>
+                                <label for="dirDelBut3"> </label>
+                                     <button ng-click="vm.deleteDir3()">Delete</button>
+                            </div>
+							
+						 </div></br>
+						 <div class="row" ng-show="myDir4" ng-hide="delDir4">
+                             <div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dirNme4.$invalid && (userForm1.dirNme4.$dirty || submitted)}">
+                                <label for=" directorName4"> Director</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="dirNme4" class="form-control" ng-model="vm.Order.DirectorName4__c" ng-maxlength="60" placeholder="Enter Director Name" />
+									</div>
+									<p ng-show="userForm1.dirNme4.$error.maxlength && (userForm1.dirNme4.$dirty || submitted)" class="help-block">Director Name allows only 60 characters</p>
+								</div>
+                            </div>
+							 <div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.dirDin4.$invalid && (userForm1.dirDin4.$dirty || submitted)}">
+                                <label for="din4"> DIN </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                       <input style="font-weight:normal;" type="text" id="loanDin4" name="dirDin4" class="form-control" ng-model="vm.Order.DirectorDIN4__c" pattern="[0-9]*" ng-minlength="8" maxlength="8" onKeyPress="return check(event,value)" onInput="checkDin4Length()" placeholder="Enter Director DIN" ng-disabled="vm.Order.DirectorName4__c==null"/>
+									</div>
+									<p ng-show="userForm1.dirDin4.$error.pattern && (userForm1.dirDin4.$dirty || submitted)" class="help-block">DIN No. Should be only numbers and should not exceed 8 digits.</p>
+									<p ng-show="userForm1.dirDin4.$error.minlength && (userForm1.dirDin4.$dirty || submitted)" class="help-block">DIN No. Should not be less than 8 digits.</p>
+								</div>
+                            </div>
+							<div class="col-sm-2">
+							</br>
+                                <label for="dirDelBut4"> </label>
+                                     <button ng-click="vm.deleteDir4()">Delete</button>
+                            </div>
+							
+						 </div></br>
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			
+			<!-- changes begin from here
+		     Changed channed partner heading ang related fields
+             Changed Sales Executive Heading and related fields	 -->	
+			
+			<div class="panel panel-default" >
+				<div class="panel-heading" data-toggle="collapse" data-target="#channel"><b>Direct Sales / Channel Partner information<b></div>
+                <div id="channel" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.chlName.$invalid && (userForm1.chlName.$dirty || submitted)}">
+                                <label for=" channelPartnerName"> LenderRepName</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="chlName" class="form-control" ng-pattern ="/^[a-zA-Z\s]*$/" ng-maxlength="50" ng-model="vm.Order.channelPartnerName__c" placeholder="Enter Lender Name"  />
+									</div>
+									<p ng-show="userForm1.chlName.$error.pattern && (userForm1.chlName.$dirty || submitted)" class="help-block">Please Enter only Alphabets .</p>
+									<p ng-show="userForm1.chlName.$error.maxlength && (userForm1.chlName.$dirty || submitted)" class="help-block">LenderRepName allows only 50 characters.</p>
+								</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.lanEmail.$invalid && (userForm1.lanEmail.$dirty || submitted)}">
+                                <label for="channelPartnerEmailId"> LenderRepEmailId</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-envelope"></i></span>
+                                       	<input style="font-weight:normal;" type="email" id="channelPartnerEmailId " name="lanEmail" class="form-control" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" ng-model="vm.Order.channelPartnerEmailId__c " placeholder="Enter Lender Email" />
+									</div>
+									<p ng-show="userForm1.lanEmail.$error.pattern && (userForm1.lanEmail.$dirty || submitted)" class="help-block">Please enter a valid email.</p>
+								</div>
+                            </div>
+							<div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.lanMobil.$invalid && (userForm1.lanMobil.$dirty || submitted)}">
+									<label for="channelPartnerMobile"> LenderRepMobile</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-phone-alt"></i></span>
+                                    	<input style="font-weight:normal;"  type="number" id="channelPartnerMobile" name="lanMobil" class="form-control" ng-pattern="/^[1-9]{1}[0-9]{9}$/" ng-minlength="10" maxlength="10" onKeyPress="return check(event,value)" onInput="checkLenMobLength()" ng-model="vm.Order.channelPartnerMobile__c" placeholder="Enter Lender Mobile"  />
+									</div>
+									<p ng-show="userForm1.lanMobil.$error.pattern && (userForm1.lanMobil.$dirty || submitted)" class="help-block">Phone No. Should be only numbers and should not start with Zero.</p>
+									<p ng-show="userForm1.lanMobil.$error.minlength && (userForm1.lanMobil.$dirty || submitted)" class="help-block">Phone No. Should not be less than 10 digits.</p>
+									<p ng-show="userForm1.lanMobil.$error.maxlength && (userForm1.lanMobil.$dirty || submitted)" class="help-block">Phone No. Should not exceed 10 digits.</p>
+								</div>
+                            </div>
+							
+                        </div>
+						
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			<div class="panel panel-default" >
+				<div class="panel-heading" data-toggle="collapse" data-target="#channeTax"><b>CA / Tax consultant information<b></div>
+                <div id="channeTax" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        
+						<div class="row">
+                             <div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.salesName.$invalid && (userForm1.salesName.$dirty || submitted)}">
+                                <label for=" salesExecutiveName"> BorrowerRepName</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="text" name="salesName" class="form-control" ng-pattern ="/^[a-zA-Z\s]*$/" ng-maxlength="50" ng-model="vm.Order.salesExecutiveName__c" placeholder="Enter Borrower Name"  />
+									</div>
+									<p ng-show="userForm1.salesName.$error.pattern && (userForm1.salesName.$dirty || submitted)" class="help-block">Please Enter only Alphabets .</p>
+									<p ng-show="userForm1.salesName.$error.maxlength && (userForm1.salesName.$dirty || submitted)" class="help-block">BorrowerRepName allows only 50 characters.</p>
+								</div>
+							</div>
+							 <div class="col-sm-3">
+                                <div class="form-group" ng-class="{'has-error' : userForm1.borEmail.$invalid && (userForm1.borEmail.$dirty || submitted)}">
+                                <label for="salesExecutiveEmailId"> BorrowerRepEmailId</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-envelope"></i></span>
+                                       <input style="font-weight:normal;" name="borEmail" type="email" id="salesExecutiveEmailId" class="form-control" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" ng-model="vm.Order.salesExecutiveEmailId__c" placeholder="Enter Borrower Email"  />
+									</div>
+									<p ng-show="userForm1.borEmail.$error.pattern && (userForm1.borEmail.$dirty || submitted)" class="help-block">Please enter a valid email.</p>
+								</div>
+                            </div>
+							<div class="col-sm-3" >
+                                <div class="form-group" ng-class="{'has-error' : userForm1.boroMob.$invalid && (userForm1.boroMob.$dirty || submitted)}">
+                                <label for="salesExecutiveMobile"> BorrowerRepMobile</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-phone-alt"></i></span>
+                                    	<input style="font-weight:normal;" type="number" id="salesExecutiveMobile" name="boroMob" class="form-control"  ng-pattern="/^[1-9]{1}[0-9]{9}$/" ng-minlength="10" maxlength="10" onKeyPress="return check(event,value)" onInput="checkBorMobLength()" ng-model="vm.Order.salesExecutiveMobile__c " placeholder="Enter Borrower Mobile" />
+									</div>
+									<p ng-show="userForm1.boroMob.$error.pattern && (userForm1.boroMob.$dirty || submitted)" class="help-block">Phone No. Should be only numbers and should not start with Zero.</p>
+									<p ng-show="userForm1.boroMob.$error.minlength && (userForm1.boroMob.$dirty || submitted)" class="help-block">Phone No. Should not be less than 10 digits.</p>
+									<p ng-show="userForm1.boroMob.$error.maxlength && (userForm1.boroMob.$dirty || submitted)" class="help-block">Phone No. Should not exceed 10 digits.</p>
+								</div>
+                            </div>
+						 </div></br>
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+		<!-- Changes ends here-->
+			
+			
+        </div>
+		
+		<div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-footer">
+                    <div class="row">
+      <div class="col-sm-2.6 pull-right ">
+                            <a class="btn btn-success btn-xs" ng-click="vm.ValidationForm()" ng-if="userForm1.$invalid == true" data-toggle="modal" data-target="#AlertModal">
+                                <i class="fa fa-check-square-o"></i> Save
+                            </a>
+       <a class="btn btn-success btn-xs"  ng-if="userForm1.$invalid == false" data-toggle="modal" data-target="#ConfirmModal">
+                                <i class="fa fa-check-square-o"></i> Save
+                            </a>
+                            <a class="btn btn-danger btn-xs" ng-click="vm.Close()">
+                                <i class="fa fa-times"></i> Cancel
+                            </a>
+                        </div>
+        </div>
+    </div>
+   </div>
+  </div>
+ 
+ <!-- Modal -->
+    <div class="modal fade" id="AlertModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#eeeeee;height:40px">
+                    <i class="fa fa-exclamation-triangle" style="color:red"></i> <b>Alert!!</b>
+                </div>
+                <div class="modal-body" style="height:90px">
+                    <div class="pull-left" style="color:black"> <p>Missing or Invalid data. Please update and resubmit.</p></div>
+                    <a class="btn btn-danger btn-xs pull-right" data-dismiss="modal">
+                        <i class="fa fa-close"></i> Close
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+ 
+	<div class="modal fade" id="ConfirmModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#eeeeee;height:40px">
+                    <i class="fa fa-check-circle" style="color:green"></i> <b>Confirm</b>
+                </div>
+                <div class="modal-body" style="height:90px">
+                    <div class="pull-left" style="color:black"> <p>Are you sure you want to Save this information? </p> </div>
+                    <a class="btn btn-danger btn-xs pull-right" data-dismiss="modal">
+                        <i class="fa fa-close"></i> Close
+                    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a class="btn btn-success btn-xs"  ng-click="vm.saveOrder()"  data-dismiss="modal">
+                        <i class="fa fa-save"></i> Save
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+		<!-- <div class="col-lg-12"> -->
+            <!-- <div class="panel panel-default"> -->
+                <!-- <div class="panel-footer"> -->
+                    <!-- <div class="row"> -->
+						<!-- <div class="col-sm-2.6 pull-right "> -->
+                            <!-- <a class="btn btn-success btn-xs" ng-click="vm.ValidationForm()" ng-if="userForm1.$invalid == true" > -->
+                                <!-- <i class="fa fa-check-square-o"></i> Save -->
+                            <!-- </a> -->
+							<!-- <a class="btn btn-success btn-xs" ng-click="vm.saveOrder()"  ng-if="userForm1.$invalid == false"> -->
+                                <!-- <i class="fa fa-check-square-o"></i> Save -->
+                            <!-- </a> -->
+                            <!-- <a class="btn btn-danger btn-xs" ng-click="vm.Close()"> -->
+                                <!-- <i class="fa fa-times"></i> Cancel -->
+                            <!-- </a> -->
+                        <!-- </div> -->
+				    <!-- </div> -->
+				<!-- </div> -->
+			<!-- </div> -->
+		<!-- </div> -->
+		
+	</div>					
+</form>
+</div> 
+</body>
+</html>  

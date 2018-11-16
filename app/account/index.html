@@ -1,0 +1,68 @@
+<html>
+<head>
+<script>
+
+function checkPass()
+{
+    
+    var pass1 = document.getElementById('password');
+    var pass2 = document.getElementById('cpassword');
+   
+    var message = document.getElementById('confirmMessage');
+    
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+    if(pass1.value == pass2.value){
+        
+        //pass2.style.backgroundColor = goodColor;
+        message.style.color = goodColor;
+        message.innerHTML = "Passwords Match!"
+    }else{
+       
+        //pass2.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "Passwords Do Not Match!"
+    }
+}  
+
+</script>
+
+</head>
+<body>
+<h1>Change password</h1>
+<div class="form-container">
+    <form method="post" name="MyForm">
+        <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" class="form-control" ng-model="vm.user.firstName" maxlength="50" />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" class="form-control" ng-model="vm.user.lastName" required />
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control" ng-model="vm.user.username" ng-disabled="vm.user.username!=null"  />
+        </div>
+		
+        <div class="form-group">
+            <label for="password"> New Password</label>
+            <input type="password" id="password" name="password" class="form-control" ng-model="vm.user.password" required/>
+        </div>
+		
+	   <div class="form-group">
+            <label for="cpassword"> Re-enter Password</label>
+            <input type="password" id="cpassword" name="cpassword" class="form-control" ng-model="vm.user.cpassword" onkeyup="checkPass(); return false;" required/>
+			 <span id="confirmMessage" class="confirmMessage"></span>
+        </div>
+		
+        <div class="form-group">
+            <button class="btn btn-primary" ng-disabled="MyForm.$invalid"  ng-click="vm.saveUser()">Save</button>
+			<input type="button"  class="btn btn-primary" onClick="location.href='/app/#/account/'" value='Cancel'/>
+            <!--<button class="btn btn-danger" ng-click="vm.deleteUser()">Delete</button>-->
+        </div>
+    </form>
+</div>
+</body>
+</html>

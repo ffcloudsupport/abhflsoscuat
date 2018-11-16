@@ -1,0 +1,192 @@
+<html>
+<head>
+<style>
+    <meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</style>
+</head>
+<body>
+<div class="form-container">
+<form method="post">
+<br></br>
+    <div class="row" >
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+				<div class="panel-heading" data-toggle="collapse" data-target="#lender"><b>Lender Order Information<b></div>
+                <div id="lender" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3" >
+                                <label for="LenderReferenceNumber__c">Order Number <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                    	<input type="text" id="LenderReferenceNumber__c" class="form-control" ng-model="vm.Order.LenderReferenceNumber__c" placeholder="Enter Order Number" required />
+									</div>
+                            </div>
+							<div class="col-sm-3" >
+                                 
+                                 <button type="submit" class="btn btn-success" style="margin-top:0.6cm;" ><b style="color:black;"> Search</b></button>&nbsp;&nbsp;&nbsp;
+							</div>
+							<div class="col-sm-3" >
+                              </div>
+                        </div>
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			<div class="panel panel-primary" >
+				<div class="panel-heading" data-toggle="collapse" data-target="#lenderPer"><b>Personal Information<b></div>
+                <div id="lenderPer" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3" >
+                                <label for=" Borrower_First_Name__c">Borrower First name <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+                                    	<input type="text" id="Borrower_First_Name__c" class="form-control" ng-model="vm.Order.Borrower_First_Name__c" placeholder="Enter FirstName" required />
+									</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="Borrower_Middle_Name__c">Borrower Middle name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+                                       	<input type="text" id="Borrower_Middle_Name__c " class="form-control" ng-model="vm.Order.Borrower_Middle_Name__c " placeholder="Enter Middle Name" />
+									</div>
+                                 </div>
+							<div class="col-sm-3">
+                                <label for="Borrower_Last_Name__c">Borrower Last name<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+                                    	<input type="text" id="Borrower_Last_Name__c" class="form-control" ng-model="vm.Order.Borrower_Last_Name__c" placeholder="Enter Last Name" required />
+									</div>
+                                  </div>
+							
+                        </div>
+						<br></br>
+						<div class="row">
+                             <div class="col-sm-3" >
+                                <label for=" Date_Of_Birth__c">Date of Birth <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-list-alt"></i></span>
+                                    	<input type="date" id="  Date_Of_Birth__c" class="form-control" ng-model="vm.Order.Date_Of_Birth__c" placeholder="Enter Date of Birth" required />
+									</div>
+                            </div>
+							 <div class="col-sm-3">
+                                <label for="Loan_Applicant_PAN__c">PAN<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                       <input type="text" id="Loan_Applicant_PAN__c" class="form-control" ng-model="vm.Order.Loan_Applicant_PAN__c" placeholder="Enter PAN Number" required />
+									</div>
+                            </div>
+							<div class="col-sm-3" >
+                                <label for=" Loan_Applicant_Email__c">Email<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-envelope"></i></span>
+                                    	<input type="text" id="Loan_Applicant_Email__c " class="form-control" ng-model="vm.Order.Loan_Applicant_Email__c " placeholder="Enter email" required/>
+									</div>
+                            </div>
+							 
+								 
+                        </div>
+						
+						
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			<div class="panel panel-primary">
+				<div class="panel-heading" data-toggle="collapse" data-target="#lenderAdd"><b>Contact Information<b></div>
+                <div id="lenderAdd" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3">
+                                <label for="Loan_Applicant_Street__c">Street<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-map-marker"></i></span>
+                                    	<input type="text" id="Loan_Applicant_Street__c" class="form-control" ng-model="vm.Order.Loan_Applicant_Street__c" placeholder="Enter Street" required/>
+									</div>
+                            </div>
+                            <div class="col-sm-3" >
+                                <label for=" Loan_Applicant_City__c">City<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-map-marker"></i></span>
+                                    	<input type="text" id="Loan_Applicant_City__c " class="form-control" ng-model="vm.Order.Loan_Applicant_City__c " placeholder="Enter City" required/>
+									</div>
+                            </div>
+							<div class="col-sm-3">
+                                <label for="Loan_Applicant_State__c">State<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-grain"></i></span>
+                                      <input type="text" id="Loan_Applicant_State__c" class="form-control" ng-model="vm.Order.Loan_Applicant_State__c" placeholder="Enter State" required/>
+									</div>
+                                 </div>
+                            
+                        </div>
+						<br></br>
+						<div class="row">
+                            <div class="col-sm-3">
+                                <label for="Loan_Applicant_Country__c">Country<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-globe"></i></span>
+                                    	<input type="text" id="Loan_Applicant_Country__c" class="form-control" ng-model="vm.Order.Country__c" placeholder="Enter Country" required/>
+									</div>
+                            </div>
+							 <div class="col-sm-3">
+                                <label for="Loan_Applicant_Mobile__c">Mobile<span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-phone"></i></span>
+                                       	<input type="text" id="Loan_Applicant_Mobile__c " class="form-control" ng-model="vm.Order.Loan_Applicant_Mobile__c " placeholder="Enter Mobile Number" required />
+									</div>
+                             </div>
+							 <div class="col-sm-3">
+                                <label for="Additional_Mobile__c">Additional Mobile</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-phone-alt"></i></span>
+                                    	<input type="text" id="Additional_Mobile__c" class="form-control" ng-model="vm.Order.Additional_Mobile__c" placeholder="Enter Mobile Number" required/>
+									</div>
+                            </div>
+								 
+                        </div>
+						
+						
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			
+            </div>
+			
+      
+    
+		<div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-footer">
+                    <div class="row">
+						<div class="col-sm-2.6 pull-right ">
+                            <a class="btn btn-success btn-xs" >
+                                <i class="fa fa-check-square-o"></i> Submit
+                            </a>
+                            <a class="btn btn-danger btn-xs">
+                                <i class="fa fa-times"></i> Cancel
+                            </a>
+                        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+	</div>					
+</form>
+</div> 
+</body>
+</html>  

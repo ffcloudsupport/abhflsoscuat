@@ -1,0 +1,3641 @@
+[
+  {
+    "DivBranchName": "Kolkata",
+    "DivBranchID": 7,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "MP1",
+    "DivBranchID": 8,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "MP2",
+    "DivBranchID": 9,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Chennai",
+    "DivBranchID": 2,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Delhi",
+    "DivBranchID": 3,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Rajasthan1",
+    "DivBranchID": 13,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Rajasthan2",
+    "DivBranchID": 14,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "PUH",
+    "DivBranchID": 11,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Punjab",
+    "DivBranchID": 12,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROAP1",
+    "DivBranchID": 15,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Bengaluru",
+    "DivBranchID": 1,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Mumbai",
+    "DivBranchID": 10,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROAP2",
+    "DivBranchID": 16,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROM2",
+    "DivBranchID": 20,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROM2-Pune",
+    "DivBranchID": 21,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROTN1",
+    "DivBranchID": 22,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROTN2",
+    "DivBranchID": 23,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UttarPradesh1",
+    "DivBranchID": 24,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Gujarat",
+    "DivBranchID": 4,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Hyderabad",
+    "DivBranchID": 5,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "Kerala",
+    "DivBranchID": 6,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROK1",
+    "DivBranchID": 17,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROK2",
+    "DivBranchID": 18,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROM1",
+    "DivBranchID": 19,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UttarPradesh2",
+    "DivBranchID": 25,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Jayanagar1",
+    "DivBranchID": 26,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Hosur",
+    "DivBranchID": 30,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Kengeri",
+    "DivBranchID": 31,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Kolar",
+    "DivBranchID": 32,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Kormanagala",
+    "DivBranchID": 33,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-BengaluruCATA",
+    "DivBranchID": 28,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Marathahalli",
+    "DivBranchID": 34,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Nelamangala",
+    "DivBranchID": 35,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Tumkur",
+    "DivBranchID": 36,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-CH-Ambattur",
+    "DivBranchID": 38,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-CH-Chennai",
+    "DivBranchID": 39,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Yelahanka",
+    "DivBranchID": 37,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-CH-Kodambakkam",
+    "DivBranchID": 40,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-CH-ChennaiMetro",
+    "DivBranchID": 41,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-CH-Omr",
+    "DivBranchID": 42,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-CH-SalesVertical",
+    "DivBranchID": 43,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-CH-Parrys",
+    "DivBranchID": 45,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-CH-Nanganallur",
+    "DivBranchID": 44,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-DL-Agra",
+    "DivBranchID": 48,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Jayanagar2",
+    "DivBranchID": 27,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-CH-Tambaram",
+    "DivBranchID": 46,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-BLR-Chandapura",
+    "DivBranchID": 29,
+    "ParentID": 1
+  },
+  {
+    "DivBranchName": "DHFL-CH-Tiruvallur",
+    "DivBranchID": 47,
+    "ParentID": 2
+  },
+  {
+    "DivBranchName": "DHFL-DL-Aligarh",
+    "DivBranchID": 49,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-AzadpurNSP",
+    "DivBranchID": 50,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Bahadurgarh",
+    "DivBranchID": 51,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Bhiwadi",
+    "DivBranchID": 52,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-CATADelhi",
+    "DivBranchID": 54,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Pitampura",
+    "DivBranchID": 55,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Safdurjung1",
+    "DivBranchID": 56,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Safdurjung2",
+    "DivBranchID": 57,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-RajouriGarden",
+    "DivBranchID": 59,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Janakpuri",
+    "DivBranchID": 58,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Faridabad",
+    "DivBranchID": 61,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Dwarka",
+    "DivBranchID": 60,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Firozabad",
+    "DivBranchID": 63,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-FaridabadSector19",
+    "DivBranchID": 62,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-GhaziabadLocalOffice",
+    "DivBranchID": 64,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-GreaterNoida",
+    "DivBranchID": 65,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-GurgaonSohnaRoad1",
+    "DivBranchID": 67,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Gurgaon",
+    "DivBranchID": 66,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Hisar",
+    "DivBranchID": 68,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-KarkardumaNoida",
+    "DivBranchID": 69,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Mathura",
+    "DivBranchID": 71,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-LajpatNagar",
+    "DivBranchID": 70,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-CannaughtPlace",
+    "DivBranchID": 53,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-NetajiSubhashPlace",
+    "DivBranchID": 73,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Meerut",
+    "DivBranchID": 72,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-NewDelhi",
+    "DivBranchID": 74,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Noida",
+    "DivBranchID": 76,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-NoidaSector2",
+    "DivBranchID": 78,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Noida1RajendraPlace",
+    "DivBranchID": 77,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-NewDelhi-west",
+    "DivBranchID": 75,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Rohini",
+    "DivBranchID": 80,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-DL-Sirsa",
+    "DivBranchID": 82,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Ahmedabad",
+    "DivBranchID": 83,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Anand",
+    "DivBranchID": 85,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Bharuch",
+    "DivBranchID": 86,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Bhavnagar",
+    "DivBranchID": 87,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-AhmedabadAbhijitIV",
+    "DivBranchID": 84,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Bopal",
+    "DivBranchID": 88,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Chandkheda",
+    "DivBranchID": 89,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Gandhidham",
+    "DivBranchID": 90,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Gota",
+    "DivBranchID": 91,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Jamnagar",
+    "DivBranchID": 92,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Junagadh",
+    "DivBranchID": 93,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Rajkot",
+    "DivBranchID": 95,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Surendranagar",
+    "DivBranchID": 97,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Surat",
+    "DivBranchID": 96,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Vapi",
+    "DivBranchID": 99,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Vadodara",
+    "DivBranchID": 98,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Mehsana",
+    "DivBranchID": 94,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-GUJ-Vastral",
+    "DivBranchID": 100,
+    "ParentID": 4
+  },
+  {
+    "DivBranchName": "DHFL-HYD-Gachibowli",
+    "DivBranchID": 102,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-ASRaoNagar",
+    "DivBranchID": 101,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-Hyderabad",
+    "DivBranchID": 103,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-Ameerpet",
+    "DivBranchID": 104,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-Metro",
+    "DivBranchID": 105,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-SalesVertical",
+    "DivBranchID": 106,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-Nagole",
+    "DivBranchID": 107,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-HYD-Nalgonda",
+    "DivBranchID": 108,
+    "ParentID": 5
+  },
+  {
+    "DivBranchName": "DHFL-KL-Alleppey",
+    "DivBranchID": 109,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Calicut",
+    "DivBranchID": 111,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Kalpetta",
+    "DivBranchID": 112,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Kannur",
+    "DivBranchID": 113,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Kasaragod",
+    "DivBranchID": 114,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Kochi",
+    "DivBranchID": 115,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Kollam",
+    "DivBranchID": 116,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-DL-RajNagar",
+    "DivBranchID": 79,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-KL-Manjeri",
+    "DivBranchID": 118,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Mavelikara",
+    "DivBranchID": 119,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Palakkad",
+    "DivBranchID": 120,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Thrissur",
+    "DivBranchID": 123,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Tirur",
+    "DivBranchID": 124,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Pathnamthitta",
+    "DivBranchID": 121,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Aluva",
+    "DivBranchID": 110,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Asansol",
+    "DivBranchID": 127,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Berhampur",
+    "DivBranchID": 128,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Bhubaneswar",
+    "DivBranchID": 129,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Bilaspur",
+    "DivBranchID": 130,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Bokaro",
+    "DivBranchID": 131,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Burdwan",
+    "DivBranchID": 132,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Chaibasa",
+    "DivBranchID": 133,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Chandannagar",
+    "DivBranchID": 134,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Durg",
+    "DivBranchID": 135,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KL-Thodupuzha",
+    "DivBranchID": 122,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Durgapur",
+    "DivBranchID": 136,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Guwahati",
+    "DivBranchID": 137,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Jamshedpur",
+    "DivBranchID": 138,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-KolkataTheatreRoad",
+    "DivBranchID": 139,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Patna",
+    "DivBranchID": 140,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KL-Trivandrum",
+    "DivBranchID": 126,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Puri",
+    "DivBranchID": 141,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Ranchi",
+    "DivBranchID": 144,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Rashbehari",
+    "DivBranchID": 145,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Sambhalpur",
+    "DivBranchID": 147,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-DL-Rohtak",
+    "DivBranchID": 81,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Rourkela",
+    "DivBranchID": 146,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Siliguri",
+    "DivBranchID": 148,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Raipur",
+    "DivBranchID": 142,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-KL-Tripunithura",
+    "DivBranchID": 125,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-KL-Kottayam",
+    "DivBranchID": 117,
+    "ParentID": 6
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Dewas",
+    "DivBranchID": 150,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Indore",
+    "DivBranchID": 152,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Khandwa",
+    "DivBranchID": 155,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Khargone",
+    "DivBranchID": 156,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Pithampur",
+    "DivBranchID": 157,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Ratlam",
+    "DivBranchID": 158,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Gwalior",
+    "DivBranchID": 151,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-KOL-Rajarhat",
+    "DivBranchID": 143,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-MP2-CBIBhopalJntSynd",
+    "DivBranchID": 162,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-KOL-UBIKolkataSynd",
+    "DivBranchID": 149,
+    "ParentID": 7
+  },
+  {
+    "DivBranchName": "DHFL-MP2-BhopalBankStreet",
+    "DivBranchID": 161,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Ujjain",
+    "DivBranchID": 160,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Chhindwara",
+    "DivBranchID": 163,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Itarsi",
+    "DivBranchID": 164,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Rewa",
+    "DivBranchID": 166,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Jabalpur",
+    "DivBranchID": 165,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Sagar",
+    "DivBranchID": 167,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Jhansi",
+    "DivBranchID": 154,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Vidisha",
+    "DivBranchID": 169,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Andheri",
+    "DivBranchID": 170,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Boisar",
+    "DivBranchID": 171,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MP1-IndoreRoyalGoldComplex",
+    "DivBranchID": 153,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP1-Shivpuri",
+    "DivBranchID": 159,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "DHFL-MP2-Satna",
+    "DivBranchID": 168,
+    "ParentID": 9
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Dahisar",
+    "DivBranchID": 175,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-MumbaiMetro",
+    "DivBranchID": 178,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Nallasopara",
+    "DivBranchID": 180,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Palghar",
+    "DivBranchID": 181,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Vasai",
+    "DivBranchID": 182,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Ambernath",
+    "DivBranchID": 186,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Badlapur",
+    "DivBranchID": 187,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Bhandup",
+    "DivBranchID": 188,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-BorivaliWest",
+    "DivBranchID": 173,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Bhiwandi",
+    "DivBranchID": 189,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-VasaiEast",
+    "DivBranchID": 183,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Virar",
+    "DivBranchID": 184,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Dombivali",
+    "DivBranchID": 190,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Borivali",
+    "DivBranchID": 172,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Dahanu",
+    "DivBranchID": 174,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Kharghar",
+    "DivBranchID": 195,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Naigaon",
+    "DivBranchID": 179,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Ghatkopar",
+    "DivBranchID": 191,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Khopoli",
+    "DivBranchID": 196,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-NaviMumbai",
+    "DivBranchID": 197,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Panvel",
+    "DivBranchID": 198,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Ghodbunder",
+    "DivBranchID": 192,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Kalyan",
+    "DivBranchID": 193,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Karjat",
+    "DivBranchID": 194,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Pen",
+    "DivBranchID": 199,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-MiraBhayandar",
+    "DivBranchID": 177,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Fort",
+    "DivBranchID": 176,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-VirarEast",
+    "DivBranchID": 185,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Roha",
+    "DivBranchID": 200,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-ThaneNaupada",
+    "DivBranchID": 203,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Ulwe",
+    "DivBranchID": 207,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Shahapur",
+    "DivBranchID": 201,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Thane",
+    "DivBranchID": 202,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Ulhasnagar",
+    "DivBranchID": 206,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Vashi",
+    "DivBranchID": 208,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Amritsar",
+    "DivBranchID": 210,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Bathinda",
+    "DivBranchID": 211,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Dehradun",
+    "DivBranchID": 212,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Haridwar",
+    "DivBranchID": 213,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Jalandhar",
+    "DivBranchID": 215,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Panipat",
+    "DivBranchID": 217,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Pathankot",
+    "DivBranchID": 218,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Saharanpur",
+    "DivBranchID": 219,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Sangrur",
+    "DivBranchID": 220,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Sonepat",
+    "DivBranchID": 221,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PB-Ambala",
+    "DivBranchID": 223,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Yamunanagar",
+    "DivBranchID": 222,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PB-Chandigarh",
+    "DivBranchID": 224,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Karnal",
+    "DivBranchID": 216,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PUH-Hoshiarpur",
+    "DivBranchID": 214,
+    "ParentID": 11
+  },
+  {
+    "DivBranchName": "DHFL-PB-Chandigarh2HO",
+    "DivBranchID": 225,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PB-Khanna",
+    "DivBranchID": 226,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PB-LudhiyanaStockExchang",
+    "DivBranchID": 227,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-MUM-ThaneCatA",
+    "DivBranchID": 204,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Titwala",
+    "DivBranchID": 205,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-MUM-Wada",
+    "DivBranchID": 209,
+    "ParentID": 10
+  },
+  {
+    "DivBranchName": "DHFL-PB-PsbChandigarhSynd",
+    "DivBranchID": 228,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PB-Patiala",
+    "DivBranchID": 229,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PB-Rupnagar",
+    "DivBranchID": 230,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-PB-Solan",
+    "DivBranchID": 231,
+    "ParentID": 12
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Ajmer",
+    "DivBranchID": 232,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Bikaner",
+    "DivBranchID": 235,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Bhilwara",
+    "DivBranchID": 234,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Jhalawar",
+    "DivBranchID": 237,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Chittorgarh",
+    "DivBranchID": 236,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Sikar",
+    "DivBranchID": 240,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Banswara",
+    "DivBranchID": 233,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ2-Balotra",
+    "DivBranchID": 242,
+    "ParentID": 14
+  },
+  {
+    "DivBranchName": "DHFL-RJ2-Jaipur",
+    "DivBranchID": 243,
+    "ParentID": 14
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Nokha",
+    "DivBranchID": 239,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-RJ2-Jodhpur",
+    "DivBranchID": 245,
+    "ParentID": 14
+  },
+  {
+    "DivBranchName": "DHFL-RJ2-Pali",
+    "DivBranchID": 246,
+    "ParentID": 14
+  },
+  {
+    "DivBranchName": "DHFL-RJ2-Udaipur",
+    "DivBranchID": 247,
+    "ParentID": 14
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Eluru",
+    "DivBranchID": 248,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Gajuwaka",
+    "DivBranchID": 249,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Kota",
+    "DivBranchID": 238,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Kakinada",
+    "DivBranchID": 251,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Nellore",
+    "DivBranchID": 252,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Srikakulam",
+    "DivBranchID": 254,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Rajahmundry",
+    "DivBranchID": 253,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Tirupati",
+    "DivBranchID": 255,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-RJ2-JaipurMIRoad",
+    "DivBranchID": 244,
+    "ParentID": 14
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Vizianagaram",
+    "DivBranchID": 258,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Vishakhapatnam",
+    "DivBranchID": 257,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Adoni",
+    "DivBranchID": 259,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Guntur",
+    "DivBranchID": 260,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-KarimNagar",
+    "DivBranchID": 261,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Khammam",
+    "DivBranchID": 262,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-RJ1-Sriganganagar",
+    "DivBranchID": 241,
+    "ParentID": 13
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Mahboobnagar",
+    "DivBranchID": 264,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Kurnool",
+    "DivBranchID": 263,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Ongole",
+    "DivBranchID": 265,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Sangareddy",
+    "DivBranchID": 266,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Vijayawada",
+    "DivBranchID": 267,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-VisakhapatnamSiripuram",
+    "DivBranchID": 256,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROAP1-Kadappa",
+    "DivBranchID": 250,
+    "ParentID": 15
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Bellary",
+    "DivBranchID": 269,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Davangere",
+    "DivBranchID": 272,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Harapanahalli",
+    "DivBranchID": 273,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Hassan",
+    "DivBranchID": 274,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Kushalanagara",
+    "DivBranchID": 275,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Mandya",
+    "DivBranchID": 276,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Mysuru",
+    "DivBranchID": 277,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Warangal",
+    "DivBranchID": 268,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Shivamoga",
+    "DivBranchID": 279,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Bagalkot",
+    "DivBranchID": 280,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Belgaum",
+    "DivBranchID": 281,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Bidar",
+    "DivBranchID": 282,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Bijapur",
+    "DivBranchID": 283,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Chikkodi",
+    "DivBranchID": 284,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Gadag",
+    "DivBranchID": 285,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Gokak",
+    "DivBranchID": 286,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Haveri",
+    "DivBranchID": 287,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Kalburgi",
+    "DivBranchID": 289,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Hubballi",
+    "DivBranchID": 288,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Karwar",
+    "DivBranchID": 290,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Mangaluru",
+    "DivBranchID": 291,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Mudhol",
+    "DivBranchID": 292,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Raichur",
+    "DivBranchID": 293,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Shahapur-Kalburgi",
+    "DivBranchID": 294,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK2-Udupi",
+    "DivBranchID": 295,
+    "ParentID": 18
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Chitradurga",
+    "DivBranchID": 271,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Amravati",
+    "DivBranchID": 297,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-Chickmaglur",
+    "DivBranchID": 270,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Akola",
+    "DivBranchID": 296,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Chandrapur",
+    "DivBranchID": 299,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Jalgaon",
+    "DivBranchID": 301,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Malegaon",
+    "DivBranchID": 302,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROK1-MysoreSaraswathipuram",
+    "DivBranchID": 278,
+    "ParentID": 17
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Wardha",
+    "DivBranchID": 304,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Washim",
+    "DivBranchID": 305,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Yavatmal",
+    "DivBranchID": 306,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM2-Ahmednagar",
+    "DivBranchID": 307,
+    "ParentID": 20
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Dhule",
+    "DivBranchID": 300,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM2-Nasik",
+    "DivBranchID": 309,
+    "ParentID": 20
+  },
+  {
+    "DivBranchName": "DHFL-ROM2-NasikRoad",
+    "DivBranchID": 310,
+    "ParentID": 20
+  },
+  {
+    "DivBranchName": "DHFL-ROM2-Parbhani",
+    "DivBranchID": 311,
+    "ParentID": 20
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Baramati",
+    "DivBranchID": 313,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2-Solapur",
+    "DivBranchID": 312,
+    "ParentID": 20
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Buldhana",
+    "DivBranchID": 298,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Chakan",
+    "DivBranchID": 315,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Daund",
+    "DivBranchID": 316,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Goa",
+    "DivBranchID": 317,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Hadpsar",
+    "DivBranchID": 318,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Jalna",
+    "DivBranchID": 319,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Kolhapur",
+    "DivBranchID": 320,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Kudal",
+    "DivBranchID": 321,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Latur",
+    "DivBranchID": 322,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2-Aurangabad",
+    "DivBranchID": 308,
+    "ParentID": 20
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Nanded",
+    "DivBranchID": 324,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM1-Nagpur",
+    "DivBranchID": 303,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Beed",
+    "DivBranchID": 314,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Mahad",
+    "DivBranchID": 323,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Pimpri",
+    "DivBranchID": 325,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-PuneGeraJunction",
+    "DivBranchID": 327,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Satara",
+    "DivBranchID": 330,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Pune",
+    "DivBranchID": 326,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Swargate",
+    "DivBranchID": 332,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Talegaon",
+    "DivBranchID": 333,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Sangli",
+    "DivBranchID": 329,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Attur",
+    "DivBranchID": 335,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Coimbatore",
+    "DivBranchID": 336,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Ratnagiri",
+    "DivBranchID": 328,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Dharmapuri",
+    "DivBranchID": 338,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Erode",
+    "DivBranchID": 339,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Kanchipuram",
+    "DivBranchID": 340,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Karur",
+    "DivBranchID": 341,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Krishnagiri",
+    "DivBranchID": 342,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Namakkal",
+    "DivBranchID": 343,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Puducherry",
+    "DivBranchID": 344,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Salem",
+    "DivBranchID": 345,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Wagholi",
+    "DivBranchID": 334,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Sathyamangalam",
+    "DivBranchID": 346,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Tiruvannamalai",
+    "DivBranchID": 347,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Vellore",
+    "DivBranchID": 349,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Villupuram",
+    "DivBranchID": 350,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Udumelpet",
+    "DivBranchID": 348,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Dindigul",
+    "DivBranchID": 351,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1-Cudallore",
+    "DivBranchID": 337,
+    "ParentID": 22
+  },
+  {
+    "DivBranchName": "DHFL-ROM2PUN-Shrirampur",
+    "DivBranchID": 331,
+    "ParentID": 21
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Karaikudi",
+    "DivBranchID": 352,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Madurai",
+    "DivBranchID": 353,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Nagarkoil",
+    "DivBranchID": 354,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Rajapalayam",
+    "DivBranchID": 355,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Tanjore",
+    "DivBranchID": 356,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Theni",
+    "DivBranchID": 357,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Virudhunagar",
+    "DivBranchID": 361,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Thirunelveli",
+    "DivBranchID": 358,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-UP1-Haldwani",
+    "DivBranchID": 363,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-UP1-Kanpur",
+    "DivBranchID": 364,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Tuticorin",
+    "DivBranchID": 360,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-UP1-Moradabad",
+    "DivBranchID": 366,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-UP1-Sitapur",
+    "DivBranchID": 367,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-UP1-LucknowLalbagh",
+    "DivBranchID": 368,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-UP2-Allahabad",
+    "DivBranchID": 369,
+    "ParentID": 25
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2-Trichy",
+    "DivBranchID": 359,
+    "ParentID": 23
+  },
+  {
+    "DivBranchName": "DHFL-UP2-Faizabad",
+    "DivBranchID": 371,
+    "ParentID": 25
+  },
+  {
+    "DivBranchName": "DHFL-UP2-Gorakhpur",
+    "DivBranchID": 372,
+    "ParentID": 25
+  },
+  {
+    "DivBranchName": "DHFL-UP2-RaeBareilly",
+    "DivBranchID": 373,
+    "ParentID": 25
+  },
+  {
+    "DivBranchName": "DHFL-UP2-Varanasi",
+    "DivBranchID": 374,
+    "ParentID": 25
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2-Nizamabad",
+    "DivBranchID": 375,
+    "ParentID": 16
+  },
+  {
+    "DivBranchName": "DL_ML",
+    "DivBranchID": 376,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "HARYANA_ML",
+    "DivBranchID": 377,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "PB_ML",
+    "DivBranchID": 378,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "RJ_ML",
+    "DivBranchID": 379,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UP_ML",
+    "DivBranchID": 380,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "WB_ML",
+    "DivBranchID": 381,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "MP_ML",
+    "DivBranchID": 382,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "MUM_ML",
+    "DivBranchID": 383,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "GUJ_ML",
+    "DivBranchID": 384,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROMG_ML",
+    "DivBranchID": 385,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "AP_ML",
+    "DivBranchID": 386,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "KL_ML",
+    "DivBranchID": 387,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-UP2-Amethi",
+    "DivBranchID": 370,
+    "ParentID": 25
+  },
+  {
+    "DivBranchName": "TN_ML",
+    "DivBranchID": 388,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "TS_ML",
+    "DivBranchID": 389,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "KA_KL",
+    "DivBranchID": 390,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-EOK",
+    "DivBranchID": 391,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-NetajiSubhashPlace",
+    "DivBranchID": 392,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DHFL-HARYANA_ML-Gurgaon",
+    "DivBranchID": 393,
+    "ParentID": 377
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-Chandigarh",
+    "DivBranchID": 394,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-Karnal",
+    "DivBranchID": 395,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-Ludhiana",
+    "DivBranchID": 396,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-Patiala",
+    "DivBranchID": 397,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Jaipur",
+    "DivBranchID": 398,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-UP1-Bareilly",
+    "DivBranchID": 362,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Jaipurmiroad",
+    "DivBranchID": 399,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-WB_ML-Kolkatathetrerd",
+    "DivBranchID": 402,
+    "ParentID": 381
+  },
+  {
+    "DivBranchName": "DHFL-MP_ML-Bhopal",
+    "DivBranchID": 403,
+    "ParentID": 382
+  },
+  {
+    "DivBranchName": "DHFL-UP1-Lucknow",
+    "DivBranchID": 365,
+    "ParentID": 24
+  },
+  {
+    "DivBranchName": "DHFL-MP_ML-Raipur",
+    "DivBranchID": 405,
+    "ParentID": 382
+  },
+  {
+    "DivBranchName": "DHFL-MUM_ML-Dahisar",
+    "DivBranchID": 406,
+    "ParentID": 383
+  },
+  {
+    "DivBranchName": "DHFL-WB_ML-Kolkata",
+    "DivBranchID": 401,
+    "ParentID": 381
+  },
+  {
+    "DivBranchName": "DHFL-MUM_ML-RegOff",
+    "DivBranchID": 408,
+    "ParentID": 383
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-Ahmedabad",
+    "DivBranchID": 409,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-Surat",
+    "DivBranchID": 410,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Nasik",
+    "DivBranchID": 411,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-Noida",
+    "DivBranchID": 400,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-AP_ML-Vijayawada",
+    "DivBranchID": 413,
+    "ParentID": 386
+  },
+  {
+    "DivBranchName": "DHFL-KL_ML-Kochi",
+    "DivBranchID": 414,
+    "ParentID": 387
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Coimbatore",
+    "DivBranchID": 415,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Madurai",
+    "DivBranchID": 416,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-RegOff",
+    "DivBranchID": 417,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Thirunelveli",
+    "DivBranchID": 418,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-TS_ML-Hyderabad",
+    "DivBranchID": 419,
+    "ParentID": 389
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Salem",
+    "DivBranchID": 420,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-KA-KL-RegOff",
+    "DivBranchID": 421,
+    "ParentID": 390
+  },
+  {
+    "DivBranchName": "KA_ML",
+    "DivBranchID": 422,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UK_ML",
+    "DivBranchID": 423,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "KA_KL_ML",
+    "DivBranchID": 424,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "NCR_ML",
+    "DivBranchID": 425,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-Regoffice",
+    "DivBranchID": 426,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-Gandhidham",
+    "DivBranchID": 427,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-KL_ML-Thrissur",
+    "DivBranchID": 428,
+    "ParentID": 387
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-P_sbLudhianaSynd",
+    "DivBranchID": 429,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Solapur",
+    "DivBranchID": 430,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Puducherry",
+    "DivBranchID": 431,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-WB_ML-Kolkata_theatreroad",
+    "DivBranchID": 432,
+    "ParentID": 381
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-Agra",
+    "DivBranchID": 433,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Aurangabad",
+    "DivBranchID": 434,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-Bathinda",
+    "DivBranchID": 435,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Bhilwara",
+    "DivBranchID": 436,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Bikaner",
+    "DivBranchID": 437,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-KL_ML-Calicut",
+    "DivBranchID": 438,
+    "ParentID": 387
+  },
+  {
+    "DivBranchName": "DHFL-KA_ML-Davangere",
+    "DivBranchID": 439,
+    "ParentID": 422
+  },
+  {
+    "DivBranchName": "DHFL-UK_ML-Dehradun",
+    "DivBranchID": 440,
+    "ParentID": 423
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-Jalandhar",
+    "DivBranchID": 441,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Jodhpur",
+    "DivBranchID": 442,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-Kanpur",
+    "DivBranchID": 443,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Kota",
+    "DivBranchID": 444,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-Lucknow",
+    "DivBranchID": 445,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-KA_ML-Mysuru",
+    "DivBranchID": 446,
+    "ParentID": 422
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-Meerut",
+    "DivBranchID": 447,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Nagpur",
+    "DivBranchID": 448,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-AP_ML-Nellore",
+    "DivBranchID": 449,
+    "ParentID": 386
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Pune",
+    "DivBranchID": 450,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-AP_ML-Rajahmundry",
+    "DivBranchID": 451,
+    "ParentID": 386
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-RajendraPlace",
+    "DivBranchID": 452,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-MP_ML-Indore",
+    "DivBranchID": 404,
+    "ParentID": 382
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-Rajkot",
+    "DivBranchID": 453,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-WB_ML-RegionalOffice_East",
+    "DivBranchID": 454,
+    "ParentID": 381
+  },
+  {
+    "DivBranchName": "DHFL-KA_KL_ML-RegionalOffice",
+    "DivBranchID": 455,
+    "ParentID": 424
+  },
+  {
+    "DivBranchName": "DHFL-MUM_ML-RegionalOffice_Mumbai",
+    "DivBranchID": 456,
+    "ParentID": 383
+  },
+  {
+    "DivBranchName": "DHFL-MUM_ML-Thane",
+    "DivBranchID": 407,
+    "ParentID": 383
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-RegionalOffice_ROMG",
+    "DivBranchID": 457,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-RegionalOffice_TamilNadu",
+    "DivBranchID": 458,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-HARYANA_ML-Rohtak",
+    "DivBranchID": 459,
+    "ParentID": 377
+  },
+  {
+    "DivBranchName": "DHFL-WB_ML-Siliguri",
+    "DivBranchID": 460,
+    "ParentID": 381
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-Udaipur",
+    "DivBranchID": 461,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Vellore",
+    "DivBranchID": 464,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-AP_ML-Vishakhapatnam",
+    "DivBranchID": 465,
+    "ParentID": 386
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Ahmednagar",
+    "DivBranchID": 466,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Kolhapur",
+    "DivBranchID": 467,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-RegionalOffice_Gujarat",
+    "DivBranchID": 468,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-HARYANA_ML-Yamunanagar",
+    "DivBranchID": 469,
+    "ParentID": 377
+  },
+  {
+    "DivBranchName": "DHFL-KA_ML-Belgaum",
+    "DivBranchID": 470,
+    "ParentID": 422
+  },
+  {
+    "DivBranchName": "DHFL-NCR_ML-Bhiwadi",
+    "DivBranchID": 471,
+    "ParentID": 425
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-ClusterOff_Gurgaon",
+    "DivBranchID": 472,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DHFL-KA_ML-Mangaluru",
+    "DivBranchID": 473,
+    "ParentID": 422
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-Mehsana",
+    "DivBranchID": 474,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-NetajiSubhashPlace2",
+    "DivBranchID": 475,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DHFL-GUJ_ML-Vadodara",
+    "DivBranchID": 462,
+    "ParentID": 384
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-Trichy",
+    "DivBranchID": 477,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-KA_ML-Hubballi",
+    "DivBranchID": 478,
+    "ParentID": 422
+  },
+  {
+    "DivBranchName": "DHFL-MUM_ML-Bhandup",
+    "DivBranchID": 479,
+    "ParentID": 383
+  },
+  {
+    "DivBranchName": "DHFL-RJ_ML-RegOff",
+    "DivBranchID": 480,
+    "ParentID": 379
+  },
+  {
+    "DivBranchName": "DHFL-UP_ML-Varanasi",
+    "DivBranchID": 463,
+    "ParentID": 380
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-RegOff",
+    "DivBranchID": 412,
+    "ParentID": 385
+  },
+  {
+    "DivBranchName": "DHFL-MUM_ML-RegOff_Mum1",
+    "DivBranchID": 476,
+    "ParentID": 383
+  },
+  {
+    "DivBranchName": "SOUTH_ML",
+    "DivBranchID": 481,
+    "ParentID": "NULL"
+ },
+
+{
+    "DivBranchName": "NATIONALOFF_ML",
+    "DivBranchID": 482,
+    "ParentID": "NULL"
+ },
+
+{
+    "DivBranchName": "NORTH_ML",
+    "DivBranchID": 483,
+    "ParentID": "NULL"
+ },
+
+{
+    "DivBranchName": "WEST_ML",
+    "DivBranchID": 484,
+    "ParentID": "NULL"
+ },
+{
+    "DivBranchName": "PUH_ML",
+    "DivBranchID": 485,
+    "ParentID": "NULL"
+ },
+{
+    "DivBranchName": "KOL_ML",
+    "DivBranchID": 486,
+    "ParentID": "NULL"
+ },
+
+{
+    "DivBranchName": "APTS_ML",
+    "DivBranchID": 487,
+    "ParentID": "NULL"
+ },
+{
+    "DivBranchName": "PCH_ML",
+    "DivBranchID": 488,
+    "ParentID": "NULL"
+ },
+
+{
+    "DivBranchName": "DHFL-SOUTH_ML-ZonalOff",
+    "DivBranchID": 489,
+    "ParentID": 481
+ },
+
+{
+    "DivBranchName": "DHFL-NATIONALOFF_ML-CorpOff",
+    "DivBranchID": 490,
+    "ParentID": 482
+ },
+{
+    "DivBranchName": "DHFL-NORTH_ML-ZonalOff",
+    "DivBranchID": 491,
+    "ParentID": 483
+ },
+{
+    "DivBranchName": "DHFL-WEST_ML-ZonalOff",
+    "DivBranchID": 492,
+    "ParentID": 484
+ },
+{
+    "DivBranchName": "DHFL-PUH_ML-Amritsar",
+    "DivBranchID": 493,
+    "ParentID": 485
+ },
+{
+    "DivBranchName": "DHFL-KOL_ML-Durgapur",
+    "DivBranchID": 494,
+    "ParentID": 486
+ },
+
+{
+    "DivBranchName": "DHFL-HARYANA_ML-Hisar",
+    "DivBranchID": 495,
+    "ParentID": 377
+ },
+
+{
+    "DivBranchName": "DHFL-TS_ML-HydMetro",
+    "DivBranchID": 496,
+    "ParentID": 389
+ },
+{
+    "DivBranchName": "DHFL-MUM_ML-NaviMumbai",
+    "DivBranchID": 497,
+    "ParentID": 383
+ },
+{
+    "DivBranchName": "DHFL-TN_ML-Tuticorin",
+    "DivBranchID": 498,
+    "ParentID": 388
+ },
+{
+    "DivBranchName": "DHFL-DL_ML-RegOff_delhi2",
+    "DivBranchID": 499,
+    "ParentID": 376
+ },
+{
+    "DivBranchName": "DHFL-ROMG_ML-Goa",
+    "DivBranchID": 500,
+    "ParentID": 385
+ },
+
+{
+    "DivBranchName": "DHFL-KA_ML-Bengaluru",
+    "DivBranchID": 501,
+    "ParentID": 422
+ },
+{
+    "DivBranchName": "DHFL-PUH_ML-Haridwar",
+    "DivBranchID": 502,
+    "ParentID": 485
+ },
+{
+    "DivBranchName": "DHFL-APTS_ML-RegOff",
+    "DivBranchID": 503,
+    "ParentID": 487
+ },
+{
+    "DivBranchName": "DHFL-PCH_ML-RegOff",
+    "DivBranchID": 504,
+    "ParentID": 488
+ },
+{
+    "DivBranchName": "DHFL-RJ_ML-Sikar",
+    "DivBranchID": 505,
+    "ParentID": 379
+ },
+{
+    "DivBranchName": "DHFL-KL_ML-Trivandrum",
+    "DivBranchID": 506,
+    "ParentID": 387
+ },
+{
+    "DivBranchName": "FF",
+    "DivBranchID": 507,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-DL-Neemrana",
+    "DivBranchID": 508,
+    "ParentID": 3
+  },
+  {
+    "DivBranchName": "DHFL-PB_ML-LudhianaMetro",
+    "DivBranchID": 509,
+    "ParentID": 378
+  },
+  {
+    "DivBranchName": "DHFL-FF-CRM",
+    "DivBranchID": 510,
+    "ParentID": 507
+  },
+  {
+    "DivBranchName": "DHFL-NORTH_ML-NorthEast",
+    "DivBranchID": 511,
+    "ParentID": 483
+  },
+  {
+	"DivBranchName": "DHFL-PB-Ludhiyana",
+    "DivBranchID": 512,
+    "ParentID": 12
+},
+{
+    "DivBranchName": "DHFL-MUM-HO",
+    "DivBranchID": 513,
+    "ParentID": 10
+},
+{ 
+	"DivBranchName": "DHFL-ROAP2-Anantpur",
+    "DivBranchID": 514,
+    "ParentID": 16
+},
+{
+	"DivBranchName": "DHFL-MUM-BorivaliEast",
+    "DivBranchID": 515,
+    "ParentID": 10
+},
+{
+	"DivBranchName": "DHFL-MP_ML-Durg",
+    "DivBranchID": 516,
+    "ParentID": 382
+},
+{
+	"DivBranchName": "DHFL-MP_MLBilaspur",
+    "DivBranchID": 517,
+    "ParentID": 382
+},
+{
+    "DivBranchName": "DHFL-ROM1-Buldana",
+    "DivBranchID": 518,
+    "ParentID": 19
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-SalesVertical",
+    "DivBranchID": 519,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "UP",
+    "DivBranchID": 520,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DL",
+    "DivBranchID": 521,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "AHFL-PUH-Saharanpur",
+    "DivBranchID": 522,
+    "ParentID": 8
+  },
+  {
+    "DivBranchName": "RHFL-UP-Lucknow",
+    "DivBranchID": 523,
+    "ParentID": 520
+  },
+  {
+    "DivBranchName": "RHFL-DL-NFC",
+    "DivBranchID": 524,
+    "ParentID": 521
+  },
+  {
+    "DivBranchName": "DHFL-KL_ML-Kannur",
+    "DivBranchID": 525,
+    "ParentID": 387
+  },
+  {
+    "DivBranchName": "DHFL-TN_ML-ChennaiSalesVerical",
+    "DivBranchID": 526,
+    "ParentID": 388
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-KarkardumaNoida",
+    "DivBranchID": 527,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-GreaterNoida",
+    "DivBranchID": 528,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "DL6_SME",
+    "DivBranchID": 529,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UP1_SME",
+    "DivBranchID": 530,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DL2_SME",
+    "DivBranchID": 531,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DL1_SME",
+    "DivBranchID": 532,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DL3_SME",
+    "DivBranchID": 533,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DL5_SME",
+    "DivBranchID": 534,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "PB_SME",
+    "DivBranchID": 535,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UH_SME",
+    "DivBranchID": 536,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "RJ1_SME",
+    "DivBranchID": 537,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "RJ2_SME",
+    "DivBranchID": 538,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "KOL_SME",
+    "DivBranchID": 539,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "HYD1_SME",
+    "DivBranchID": 540,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROAP2_SME",
+    "DivBranchID": 541,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROTN2_SME",
+    "DivBranchID": 542,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROTN1_SME",
+    "DivBranchID": 543,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "KL_SME",
+    "DivBranchID": 544,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "GUJ1_SME",
+    "DivBranchID": 545,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "GUJ2_SME",
+    "DivBranchID": 546,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROMPCH_SME",
+    "DivBranchID": 547,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "MP1_SME",
+    "DivBranchID": 548,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROM2_SME",
+    "DivBranchID": 549,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROM1_SME",
+    "DivBranchID": 550,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "PUN1_SME",
+    "DivBranchID": 551,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "MUM6_SME",
+    "DivBranchID": 552,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "UP2_SME",
+    "DivBranchID": 553,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROK2_SME",
+    "DivBranchID": 554,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "ROK1_SME",
+    "DivBranchID": 555,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-DL6_SME-Agra",
+    "DivBranchID": 556,
+    "ParentID": 529
+  },
+  {
+    "DivBranchName": "DHFL-UP1_SME-Kanpur",
+    "DivBranchID": 557,
+    "ParentID": 530
+  },
+  {
+    "DivBranchName": "DHFL-UP1_SME-Lucknow",
+    "DivBranchID": 558,
+    "ParentID": 530
+  },
+  {
+    "DivBranchName": "DHFL-DL2_SME-Bhiwadi",
+    "DivBranchID": 559,
+    "ParentID": 531
+  },
+  {
+    "DivBranchName": "DHFL-DL6_SME-Meerut",
+    "DivBranchID": 560,
+    "ParentID": 529
+  },
+  {
+    "DivBranchName": "DHFL-DL1_SME-NetajiSubhashPlace",
+    "DivBranchID": 561,
+    "ParentID": 532
+  },
+  {
+    "DivBranchName": "DHFL-DL3_SME-Noida",
+    "DivBranchID": 562,
+    "ParentID": 533
+  },
+  {
+    "DivBranchName": "DHFL-DL5_SME-Rohtak",
+    "DivBranchID": 563,
+    "ParentID": 534
+  },
+  {
+    "DivBranchName": "DHFL-DL2_SME-Gurgaon",
+    "DivBranchID": 564,
+    "ParentID": 531
+  },
+  {
+    "DivBranchName": "DHFL-PB_SME-Bathinda",
+    "DivBranchID": 565,
+    "ParentID": 535
+  },
+  {
+    "DivBranchName": "DHFL-PB_SME-Jalandhar",
+    "DivBranchID": 566,
+    "ParentID": 535
+  },
+  {
+    "DivBranchName": "DHFL-PB_SME-Patiala",
+    "DivBranchID": 567,
+    "ParentID": 535
+  },
+  {
+    "DivBranchName": "DHFL-UH_SME-Dehradun",
+    "DivBranchID": 568,
+    "ParentID": 536
+  },
+  {
+    "DivBranchName": "DHFL-UH_SME-Haridwar",
+    "DivBranchID": 569,
+    "ParentID": 536
+  },
+  {
+    "DivBranchName": "DHFL-UH_SME-Karnal",
+    "DivBranchID": 570,
+    "ParentID": 536
+  },
+  {
+    "DivBranchName": "DHFL-DL5_SME-Hisar",
+    "DivBranchID": 571,
+    "ParentID": 534
+  },
+  {
+    "DivBranchName": "DHFL-UH_SME-Yamunanagar",
+    "DivBranchID": 572,
+    "ParentID": 536
+  },
+  {
+    "DivBranchName": "DHFL-RJ1_SME-Udaipur",
+    "DivBranchID": 573,
+    "ParentID": 537
+  },
+  {
+    "DivBranchName": "DHFL-RJ2_SME-Bikaner",
+    "DivBranchID": 574,
+    "ParentID": 538
+  },
+  {
+    "DivBranchName": "DHFL-RJ1_SME-Bhilwara",
+    "DivBranchID": 575,
+    "ParentID": 537
+  },
+  {
+    "DivBranchName": "DHFL-RJ1_SME-Jodhpur",
+    "DivBranchID": 576,
+    "ParentID": 537
+  },
+  {
+    "DivBranchName": "DHFL-KOL_SME-Kolkata_TheatreRoad",
+    "DivBranchID": 577,
+    "ParentID": 539
+  },
+  {
+    "DivBranchName": "DHFL-KOL_SME-Siliguri",
+    "DivBranchID": 578,
+    "ParentID": 539
+  },
+  {
+    "DivBranchName": "DHFL-HYD1_SME-Hyderabad",
+    "DivBranchID": 579,
+    "ParentID": 540
+  },
+  {
+    "DivBranchName": "DHFL-ROAP2_SME-Vijayawada",
+    "DivBranchID": 580,
+    "ParentID": 541
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2_SME-Trichy",
+    "DivBranchID": 581,
+    "ParentID": 542
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1_SME-Vellore",
+    "DivBranchID": 582,
+    "ParentID": 543
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1_SME-Coimbatore",
+    "DivBranchID": 583,
+    "ParentID": 543
+  },
+  {
+    "DivBranchName": "DHFL-KL_SME-Kochi",
+    "DivBranchID": 584,
+    "ParentID": 544
+  },
+  {
+    "DivBranchName": "DHFL-ROTN2_SME-Madurai",
+    "DivBranchID": 585,
+    "ParentID": 542
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1_SME-Salem",
+    "DivBranchID": 586,
+    "ParentID": 543
+  },
+  {
+    "DivBranchName": "DHFL-GUJ1_SME-Ahmedabad",
+    "DivBranchID": 587,
+    "ParentID": 545
+  },
+  {
+    "DivBranchName": "DHFL-GUJ1_SME-Rajkot",
+    "DivBranchID": 588,
+    "ParentID": 545
+  },
+  {
+    "DivBranchName": "DHFL-GUJ2_SME-Surat",
+    "DivBranchID": 589,
+    "ParentID": 546
+  },
+  {
+    "DivBranchName": "DHFL-ROMPCH_SME-Bhopal",
+    "DivBranchID": 590,
+    "ParentID": 547
+  },
+  {
+    "DivBranchName": "DHFL-MP1_SME-Indore",
+    "DivBranchID": 591,
+    "ParentID": 548
+  },
+  {
+    "DivBranchName": "DHFL-ROMPCH_SME-Raipur",
+    "DivBranchID": 592,
+    "ParentID": 547
+  },
+  {
+    "DivBranchName": "DHFL-ROM2_SME-Aurangabad",
+    "DivBranchID": 593,
+    "ParentID": 549
+  },
+  {
+    "DivBranchName": "DHFL-ROM1_SME-Nagpur",
+    "DivBranchID": 594,
+    "ParentID": 550
+  },
+  {
+    "DivBranchName": "DHFL-ROM2_SME-Nasik",
+    "DivBranchID": 595,
+    "ParentID": 549
+  },
+  {
+    "DivBranchName": "DHFL-PUN1_SME-Kolhapur",
+    "DivBranchID": 596,
+    "ParentID": 551
+  },
+  {
+    "DivBranchName": "DHFL-PUN1_SME-Pune",
+    "DivBranchID": 597,
+    "ParentID": 551
+  },
+  {
+    "DivBranchName": "DHFL-MUM6_SME-Thane",
+    "DivBranchID": 598,
+    "ParentID": 552
+  },
+  {
+    "DivBranchName": "DHFL-UP2_SME-Varanasi",
+    "DivBranchID": 599,
+    "ParentID": 553
+  },
+  {
+    "DivBranchName": "DHFL-PB_SME-LudhianaMetro",
+    "DivBranchID": 600,
+    "ParentID": 535
+  },
+  {
+    "DivBranchName": "DHFL-RJ2_SME-Jaipur_MiRoad",
+    "DivBranchID": 601,
+    "ParentID": 538
+  },
+  {
+    "DivBranchName": "DHFL-RJ1_SME-Kota",
+    "DivBranchID": 602,
+    "ParentID": 537
+  },
+  {
+    "DivBranchName": "DHFL-KOL_SME-Durgapur",
+    "DivBranchID": 603,
+    "ParentID": 539
+  },
+  {
+    "DivBranchName": "DHFL-ROK2_SME-Hubballi",
+    "DivBranchID": 604,
+    "ParentID": 554
+  },
+  {
+    "DivBranchName": "DHFL-ROK1_SME-Mysuru",
+    "DivBranchID": 605,
+    "ParentID": 555
+  },
+  {
+    "DivBranchName": "DHFL-ROTN1_SME-Puducherry",
+    "DivBranchID": 606,
+    "ParentID": 543
+  },
+  {
+    "DivBranchName": "DHFL-GUJ2_SME-Vadodara",
+    "DivBranchID": 607,
+    "ParentID": 546
+  },
+  {
+    "DivBranchName": "DHFL-ROM2_SME-Ahmednagar",
+    "DivBranchID": 608,
+    "ParentID": 549
+  },
+  {
+    "DivBranchName": "DHFL-MP_ML-Jabalpur",
+    "DivBranchID": 609,
+    "ParentID": 382
+  },
+  {
+    "DivBranchName": "DHFL-KA_ML-Maysuru",
+    "DivBranchID": 610,
+    "ParentID": 422
+  },
+  {
+    "DivBranchName": "DHFL-DL_ML-Ghaziabad",
+    "DivBranchID": 611,
+    "ParentID": 376
+  },
+  {
+    "DivBranchName": "TN_SME",
+    "DivBranchID": 612,
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchName": "DHFL-TN_SME-RegOffice",
+    "DivBranchID": 613,
+    "ParentID": 612
+  },
+  {
+    "DivBranchName": "DHFL-TN_SME-Coimbatore",
+    "DivBranchID": 614,
+    "ParentID": 612
+  },
+  {
+    "DivBranchName": "DHFL-TN_SME-Madurai",
+    "DivBranchID": 615,
+    "ParentID": 612
+  },
+  {
+    "DivBranchName": "DHFL-TN_SME-Puducherry",
+    "DivBranchID": 616,
+    "ParentID": 612
+  },
+  {
+    "DivBranchName": "DHFL-TN_SME-Salem",
+    "DivBranchID": 617,
+    "ParentID": 612
+  },
+  {
+    "DivBranchName": "DHFL-TN_SME-Trichy",
+    "DivBranchID": 618,
+    "ParentID": 612
+  },
+  {
+    "DivBranchName": "DHFL-ROMG_ML-Jalgaon",
+    "DivBranchID": 619,
+    "ParentID": 385
+  },
+  {
+    "DivBranchID": 620,
+    "DivBranchName": "DL2",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 621,
+    "DivBranchName": "GUJ2",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 622,
+    "DivBranchName": "ROMPCH",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 623,
+    "DivBranchName": "RJ2",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 624,
+    "DivBranchName": "PB",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 625,
+    "DivBranchName": "CDH",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 626,
+    "DivBranchName": "BLR1",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 627,
+    "DivBranchName": "BLR2",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 628,
+    "DivBranchName": "DL4_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 629,
+    "DivBranchName": "CDH_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 630,
+    "DivBranchName": "ROAP1_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 631,
+    "DivBranchName": "MUM3_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 632,
+    "DivBranchName": "BLR1_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 633,
+    "DivBranchName": "DL3_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 634,
+    "DivBranchName": "MP1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 635,
+    "DivBranchName": "DL6_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 636,
+    "DivBranchName": "DL4_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 637,
+    "DivBranchName": "RJ2_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 638,
+    "DivBranchName": "UP1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 639,
+    "DivBranchName": "UH_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 640,
+    "DivBranchName": "UP2_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 641,
+    "DivBranchName": "ROAP2_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 642,
+    "DivBranchName": "ROAP1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 643,
+    "DivBranchName": "ROTN1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 644,
+    "DivBranchName": "ROK2_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 645,
+    "DivBranchName": "ROMPCH_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 646,
+    "DivBranchName": "MUM3_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 647,
+    "DivBranchName": "ROM1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 648,
+    "DivBranchName": "PUN1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 649,
+    "DivBranchName": "DL1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 650,
+    "DivBranchName": "CDH_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 651,
+    "DivBranchName": "BLR1_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 652,
+    "DivBranchName": "ROTN2_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 653,
+    "DivBranchName": "DHFL-DL2-Alwar",
+    "ParentID": 620
+  },
+  {
+    "DivBranchID": 654,
+    "DivBranchName": "DHFL-DL2-Rewari",
+    "ParentID": 620
+  },
+  {
+    "DivBranchID": 655,
+    "DivBranchName": "DHFL-GUJ2-Adajan",
+    "ParentID": 621
+  },
+  {
+    "DivBranchID": 656,
+    "DivBranchName": "DHFL-ROMPCH-Bhilai",
+    "ParentID": 622
+  },
+  {
+    "DivBranchID": 657,
+    "DivBranchName": "DHFL-RJ2-Jaipur_Vaishali",
+    "ParentID": 623
+  },
+  {
+    "DivBranchID": 658,
+    "DivBranchName": "DHFL-PB-LudhianaMetro",
+    "ParentID": 624
+  },
+  {
+    "DivBranchID": 659,
+    "DivBranchName": "DHFL-CDH-ChandigarhMetro1",
+    "ParentID": 625
+  },
+  {
+    "DivBranchID": 660,
+    "DivBranchName": "DHFL-CDH-ChandigarhMetro2",
+    "ParentID": 625
+  },
+  {
+    "DivBranchID": 661,
+    "DivBranchName": "DHFL-CDH-Shimla",
+    "ParentID": 625
+  },
+  {
+    "DivBranchID": 662,
+    "DivBranchName": "DHFL-BLR1-BengaluruSVKoramangala",
+    "ParentID": 626
+  },
+  {
+    "DivBranchID": 663,
+    "DivBranchName": "DHFL-BLR2-Bengaluru_Magestic",
+    "ParentID": 627
+  },
+  {
+    "DivBranchID": 664,
+    "DivBranchName": "DHFL-DL2_SME-Gurgaon_SohnaRoad",
+    "ParentID": 531
+  },
+  {
+    "DivBranchID": 665,
+    "DivBranchName": "DHFL-DL4_SME-Faridabad",
+    "ParentID": 628
+  },
+  {
+    "DivBranchID": 666,
+    "DivBranchName": "DHFL-UP1_SME-Moradabad",
+    "ParentID": 530
+  },
+  {
+    "DivBranchID": 667,
+    "DivBranchName": "DHFL-CDH_SME-ChandigarhMetro",
+    "ParentID": 629
+  },
+  {
+    "DivBranchID": 668,
+    "DivBranchName": "DHFL-KOL_SME-Guwahati",
+    "ParentID": 539
+  },
+  {
+    "DivBranchID": 669,
+    "DivBranchName": "DHFL-KOL_SME-Bhubaneswar",
+    "ParentID": 539
+  },
+  {
+    "DivBranchID": 670,
+    "DivBranchName": "DHFL-ROAP1_SME-Visakhapatnam_Siripuram",
+    "ParentID": 630
+  },
+  {
+    "DivBranchID": 671,
+    "DivBranchName": "DHFL-ROAP2_SME-Warangal",
+    "ParentID": 541
+  },
+  {
+    "DivBranchID": 672,
+    "DivBranchName": "DHFL-TN_SME-Chennai",
+    "ParentID": 612
+  },
+  {
+    "DivBranchID": 673,
+    "DivBranchName": "DHFL-MUM3_SME-MumbaiMetro",
+    "ParentID": 631
+  },
+  {
+    "DivBranchID": 674,
+    "DivBranchName": "DHFL-UP2_SME-Allahabad",
+    "ParentID": 553
+  },
+  {
+    "DivBranchID": 675,
+    "DivBranchName": "DHFL-RJ2_SME-Jaipur_Vaishali",
+    "ParentID": 538
+  },
+  {
+    "DivBranchID": 676,
+    "DivBranchName": "DHFL-BLR1_SME-BengaluruSVKoramangala",
+    "ParentID": 632
+  },
+  {
+    "DivBranchID": 677,
+    "DivBranchName": "DHFL-KOL_SME-Asansol",
+    "ParentID": 539
+  },
+  {
+    "DivBranchID": 678,
+    "DivBranchName": "DHFL-BLR1_SME-BengaluruSalesVertical",
+    "ParentID": 632
+  },
+  {
+    "DivBranchID": 679,
+    "DivBranchName": "DHFL-GUJ2_SME-Baroda",
+    "ParentID": 546
+  },
+  {
+    "DivBranchID": 680,
+    "DivBranchName": "DHFL-DL3_ML-GreaterNoida",
+    "ParentID": 633
+  },
+  {
+    "DivBranchID": 681,
+    "DivBranchName": "DHFL-MP1_ML-Gwalior",
+    "ParentID": 634
+  },
+  {
+    "DivBranchID": 682,
+    "DivBranchName": "DHFL-DL6_ML-NewDelhi",
+    "ParentID": 635
+  },
+  {
+    "DivBranchID": 683,
+    "DivBranchName": "DHFL-DL4_ML-Faridabad",
+    "ParentID": 636
+  },
+  {
+    "DivBranchID": 684,
+    "DivBranchName": "DHFL-RJ2_ML-Ajmer",
+    "ParentID": 637
+  },
+  {
+    "DivBranchID": 685,
+    "DivBranchName": "DHFL-KOL_ML-Bhubaneswar",
+    "ParentID": 486
+  },
+  {
+    "DivBranchID": 686,
+    "DivBranchName": "DHFL-KOL_ML-Guwahati",
+    "ParentID": 486
+  },
+  {
+    "DivBranchID": 687,
+    "DivBranchName": "DHFL-KOL_ML-Jamshedpur",
+    "ParentID": 486
+  },
+  {
+    "DivBranchID": 688,
+    "DivBranchName": "DHFL-PB_ML-Chandigarh_MadhyaMargh",
+    "ParentID": 378
+  },
+  {
+    "DivBranchID": 689,
+    "DivBranchName": "DHFL-UP1_ML-Haldwani",
+    "ParentID": 638
+  },
+  {
+    "DivBranchID": 690,
+    "DivBranchName": "DHFL-UH_ML-Panipat",
+    "ParentID": 639
+  },
+  {
+    "DivBranchID": 691,
+    "DivBranchName": "DHFL-UP2_ML-Allahabad",
+    "ParentID": 640
+  },
+  {
+    "DivBranchID": 692,
+    "DivBranchName": "DHFL-UP1_ML-Moradabad",
+    "ParentID": 638
+  },
+  {
+    "DivBranchID": 693,
+    "DivBranchName": "DHFL-ROAP2_ML-Kurnool",
+    "ParentID": 641
+  },
+  {
+    "DivBranchID": 694,
+    "DivBranchName": "DHFL-ROAP1_ML-Tirupati",
+    "ParentID": 642
+  },
+  {
+    "DivBranchID": 695,
+    "DivBranchName": "DHFL-ROAP2_ML-Guntur",
+    "ParentID": 641
+  },
+  {
+    "DivBranchID": 696,
+    "DivBranchName": "DHFL-ROAP1_ML-Visakhapatnam_Siripuram",
+    "ParentID": 642
+  },
+  {
+    "DivBranchID": 697,
+    "DivBranchName": "DHFL-ROAP2_ML-Warangal",
+    "ParentID": 641
+  },
+  {
+    "DivBranchID": 698,
+    "DivBranchName": "DHFL-ROTN1_ML-Erode",
+    "ParentID": 643
+  },
+  {
+    "DivBranchID": 699,
+    "DivBranchName": "DHFL-ROK2_ML-Bijapur",
+    "ParentID": 644
+  },
+  {
+    "DivBranchID": 700,
+    "DivBranchName": "DHFL-KL_ML-Kottayam",
+    "ParentID": 387
+  },
+  {
+    "DivBranchID": 701,
+    "DivBranchName": "DHFL-ROMPCH_ML-CBIBhopalJntSynd",
+    "ParentID": 645
+  },
+  {
+    "DivBranchID": 702,
+    "DivBranchName": "DHFL-MUM3_ML-MumbaiMetro",
+    "ParentID": 646
+  },
+  {
+    "DivBranchID": 703,
+    "DivBranchName": "DHFL-ROM1_ML-Akola",
+    "ParentID": 647
+  },
+  {
+    "DivBranchID": 704,
+    "DivBranchName": "DHFL-ROM1_ML-Jalgaon",
+    "ParentID": 647
+  },
+  {
+    "DivBranchID": 705,
+    "DivBranchName": "DHFL-PUN1_ML-Sangli",
+    "ParentID": 648
+  },
+  {
+    "DivBranchID": 706,
+    "DivBranchName": "DHFL-DL1_ML-DelhiRajouriGarden",
+    "ParentID": 649
+  },
+  {
+    "DivBranchID": 707,
+    "DivBranchName": "DHFL-DL3_ML-Ghaziabad",
+    "ParentID": 633
+  },
+  {
+    "DivBranchID": 708,
+    "DivBranchName": "DHFL-DL1_ML-Rohini",
+    "ParentID": 649
+  },
+  {
+    "DivBranchID": 709,
+    "DivBranchName": "DHFL-RJ2_ML-Jaipur_Vaishali",
+    "ParentID": 637
+  },
+  {
+    "DivBranchID": 710,
+    "DivBranchName": "DHFL-CDH_ML-ChandigarhMetro",
+    "ParentID": 650
+  },
+  {
+    "DivBranchID": 711,
+    "DivBranchName": "DHFL-KOL_ML-Asansol",
+    "ParentID": 486
+  },
+  {
+    "DivBranchID": 712,
+    "DivBranchName": "DHFL-UH_ML-Ambala",
+    "ParentID": 639
+  },
+  {
+    "DivBranchID": 713,
+    "DivBranchName": "DHFL-BLR1_ML-BengaluruSVKoramangala",
+    "ParentID": 651
+  },
+  {
+    "DivBranchID": 714,
+    "DivBranchName": "DHFL-ROK2_ML-Kalburgi",
+    "ParentID": 644
+  },
+  {
+    "DivBranchID": 715,
+    "DivBranchName": "DHFL-ROTN2_ML-Nagarkoil",
+    "ParentID": 652
+  },
+  {
+    "DivBranchID": 716,
+    "DivBranchName": "DHFL-BLR1_ML-BengaluruSalesVertical",
+    "ParentID": 651
+  },
+  {
+    "DivBranchID": 717,
+    "DivBranchName": "DHFL-ROK2_ML-Gulbarga",
+    "ParentID": 644
+  },
+  {
+    "DivBranchID": 718,
+    "DivBranchName": "DHFL-GUJ_ML-Baroda",
+    "ParentID": 384
+  },
+  {
+    "DivBranchID": 719,
+    "DivBranchName": "DHFL-DL_ML-Rohini",
+    "ParentID": 376
+  },
+  {
+    "DivBranchID": 720,
+    "DivBranchName": "DHFL-ROM2PUN_ML-Latur",
+    "ParentID": 723
+  },
+  {
+    "DivBranchID": 721,
+    "DivBranchName": "DHFL-ROM2PUN-SME-Latur",
+    "ParentID": 724
+  },
+  {
+    "DivBranchID": 722,
+    "DivBranchName": "DHFL-ROMG_SME-Solapur",
+    "ParentID": 725
+  },
+  {
+    "DivBranchID": 723,
+    "DivBranchName": "ROM2PUN_ML",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 724,
+    "DivBranchName": "ROM2PUN_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 725,
+    "DivBranchName": "ROMG_SME",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 726,
+    "DivBranchName": "DHFL-GUJ-Palanpur",
+    "ParentID": 4
+  }
+]

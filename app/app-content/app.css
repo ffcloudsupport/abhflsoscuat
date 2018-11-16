@@ -1,0 +1,10 @@
+body {
+    padding: 20px 0;
+}
+ 
+.flash-message {
+    margin-top: 20px;
+}
+
+.panel-default > .panel-heading-custom {
+	background: #ff0000; color: #fff; }

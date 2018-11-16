@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+    <meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	tr.th{
+		background-color:blue;
+	}
+</style>
+</head>
+<body>
+<br></br>
+<div class="form-container">
+	<div class="container">          
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+		<th bgcolor="#99ddff">Reference No</th>
+        <th bgcolor="#99ddff">First Name</th>
+        <th bgcolor="#99ddff">Last Name</th>
+        <th bgcolor="#99ddff">Order No</th>
+      </tr>
+    </thead>
+    <tbody ng-repeat="order in vm.OrderList">
+      <tr>
+		<td>{{order.Name}}</td>
+        <td>{{order.First_Name__c}}</td>
+        <td>{{order.Last_Name__c}}</td>
+        <td>{{order.OrderNumber__c}}</td>
+		
+    </tbody>
+  </table>
+</div>
+</div> 
+</body>
+</html>  

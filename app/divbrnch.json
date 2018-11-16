@@ -1,0 +1,17 @@
+[{
+    "DivBranchName": "AdityaBirlaHFL_KAR-Mysuru",
+    "DivBranchID": 1,
+    "ParentID": 1
+  },
+{
+    "DivBranchID": 1,
+    "DivBranchName": "KAR",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 2,
+    "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
+    "ParentID": 1
+  }
+
+]

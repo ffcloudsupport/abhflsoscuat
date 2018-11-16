@@ -1,0 +1,320 @@
+<html>
+<head>
+<style>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</style>
+</head>
+<body>
+<div class="form-container">
+<form method="post">
+<div class="row" >
+		<div class="col-lg-12">
+            <div ng-show="vm.fetchingData" class="alert alert-warning">Loading data... <img src="./waiting.gif" /></div>
+
+<div class="panel panel-default" ng-show="vm.orderFound">
+	<div class="panel-heading" data-toggle="collapse" data-target="#lender"><b>Order Information -<span style="color:blue;font-weight:normal;font-size:15px;">  {{vm.Order.Name}}</span><b></div>
+	<div id="lender" class="collapse in">
+	<div class="panel-body">	
+	<div class="panel panel-info" ng-show="vm.orderFound">
+        <div class="panel-heading" data-toggle="collapse" data-target="#demo1"><span style="font-weight:normal">  Order Information</span>
+        </div>
+              <div id="demo1" class="collapse in">
+				<div class="panel-body">
+					<div class="container">
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name" width="13%">Order Status :<span style="font-weight:normal" width="17%"> {{vm.Order.Lender_Status__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Canceled Reason : <span style="font-weight:normal">{{vm.Order.Regret_Reason__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Division : <span style="font-weight:normal">{{vm.Order.Region__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name">Sales Ref-Number : <span style="font-weight:normal">{{vm.Order.LenderReferenceNumber__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Order Created Date :<span style="font-weight:normal"> {{vm.Order.Order_Created_Date__c | date:'dd-MMM-yyyy'}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Branch : <span style="font-weight:normal">{{vm.Order.Branch__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name">Product : <span style="font-weight:normal">{{vm.Order.ProductOrdered__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Data Extraction by : <span style="font-weight:normal">{{vm.Order.DataPullOptionChosen__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Borrower Language : <span style="font-weight:normal">{{vm.Order.Borrowerlanguage__c}}</span></label>
+										
+								</div>
+						</div>
+					</div>
+					
+                   </div> 
+                  </div>
+              </div>
+			  
+	<div class="panel panel-info" ng-show="vm.orderFound">
+        <div class="panel-heading" data-toggle="collapse" data-target="#per1" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'"><span style="font-weight:normal">  Personal Information</span>
+        </div>
+		<div class="panel-heading panel-info" style="background-color:#d9edf7;" data-toggle="collapse" data-target="#per1" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'"><span style="font-weight:normal"> Company / Partnership information</span>
+		</div>
+              <div id="per1" class="collapse in">
+					   <div class="panel-body">
+					   <div class="container">
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name">Borrower Name :<span style="font-weight:normal"> {{vm.Order.Borrower_First_Name__c}} {{vm.Order.Borrower_Last_Name__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4" ng-show="vm.Order.ProductOrdered__c =='Credit Assessment Information Report'">
+									<label for="Name">Date of Incorporation : <span style="font-weight:normal">{{vm.Order.Date_Of_Birth__c  | date:'dd-MMM-yyyy'}}</span></label>
+										
+								</div>
+								<div class="col-sm-4" ng-show="vm.Order.ProductOrdered__c !='Credit Assessment Information Report'">
+									<label for="Name">Date of Birth : <span style="font-weight:normal">{{vm.Order.Date_Of_Birth__c  | date:'dd-MMM-yyyy'}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">PAN No. : <span style="font-weight:normal">{{vm.Order.Loan_Applicant_PAN__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name">Contact email : <span style="font-weight:normal">{{vm.Order.Loan_Applicant_Email__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Additional Email :<span style="font-weight:normal"> {{vm.Order.Additional_Email__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">DIN No. : <span style="font-weight:normal">{{vm.Order.DIN_Number__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name">Contact Mobile : <span style="font-weight:normal">{{vm.Order.Loan_Applicant_Mobile__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Additional Mobile : <span style="font-weight:normal">{{vm.Order.Additional_Mobile__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4" ng-show="vm.Order.ProductOrdered__c == 'Credit Assessment Information Report'">
+									<label for="Name">CIN / LLPIN : <span style="font-weight:normal">{{vm.Order.CIN_LLPIN__c}}</span></label>
+										
+								</div>
+						</div>
+					</div>
+					</div> 
+                  </div>
+              </div>
+		
+	<div class="panel panel-info" ng-show="vm.orderFound">
+        <div class="panel-heading" data-toggle="collapse" data-target="#con1"><span style="font-weight:normal">  Contact Information</span>
+          </div>
+              <div id="con1" class="collapse in">
+				<div class="panel-body">
+					<div class="container">
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name" >Street :<span style="font-weight:normal"> {{vm.Order.Loan_Applicant_Street__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">City : <span style="font-weight:normal">{{vm.Order.Loan_Applicant_City__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">State : <span style="font-weight:normal">{{vm.Order.Loan_Applicant_State__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row">
+							<div class="col-sm-4">
+									<label for="Name">Country : <span style="font-weight:normal">{{vm.Order.Loan_Applicant_Country__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Pin Code :<span style="font-weight:normal"> {{vm.Order.Loan_Applicant_Pin_Code__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">Additional Info : <span style="font-weight:normal">{{vm.Order.FF_Additional_Info__c}}</span></label>
+										
+								</div>
+						</div>
+					</div>
+					
+				</div> 
+                  </div>
+              </div>
+			  
+		<div class="panel panel-info" ng-show="vm.Order.ProductOrdered__c == 'Credit Assessment Information Report'">
+        <div class="panel-heading" data-toggle="collapse" data-target="#dir1"><span style="font-weight:normal"> Directors Information</span>
+          </div>
+              <div id="dir1" class="collapse in">
+				<div class="panel-body">
+					<div class="container">
+						<div class="row" ng-show="vm.Order.DirectorName1__c != null">
+								<div class="col-sm-4">
+									<label for="Name" >Director :<span style="font-weight:normal"> {{vm.Order.DirectorName1__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">DIN : <span style="font-weight:normal">{{vm.Order.DirectorDIN1__c}}</span></label>
+										
+								</div>
+								
+						</div>
+						</br>
+						<div class="row" ng-show="vm.Order.DirectorName2__c != null">
+								<div class="col-sm-4">
+									<label for="Name" >Director :<span style="font-weight:normal"> {{vm.Order.DirectorName2__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">DIN : <span style="font-weight:normal">{{vm.Order.DirectorDIN2__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row" ng-show="vm.Order.DirectorName3__c != null">
+								<div class="col-sm-4">
+									<label for="Name" >Director :<span style="font-weight:normal"> {{vm.Order.DirectorName3__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">DIN : <span style="font-weight:normal">{{vm.Order.DirectorDIN3__c}}</span></label>
+										
+								</div>
+						</div>
+						</br>
+						<div class="row" ng-show="vm.Order.DirectorName4__c != null">
+								<div class="col-sm-4">
+									<label for="Name" >Director :<span style="font-weight:normal"> {{vm.Order.DirectorName4__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">DIN : <span style="font-weight:normal">{{vm.Order.DirectorDIN4__c}}</span></label>
+										
+								</div>
+						</div>
+						
+					</div>
+					
+                   </div> 
+                  </div>
+              </div>
+
+	<div class="panel panel-info" ng-show="vm.orderFound">
+        <div class="panel-heading" data-toggle="collapse" data-target="#chan1"><span style="font-weight:normal">Direct Sales / Channel Partner information</span>
+			
+        </div>
+              <div id="chan1" class="collapse in">
+				   <div class="panel-body">
+						<div class="container">
+						<div class="row">
+								<div class="col-sm-4">
+									<label for="Name" >LenderRepName :<span style="font-weight:normal"> {{vm.Order.channelPartnerName__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">LenderRepEmailId : <span style="font-weight:normal">{{vm.Order.channelPartnerEmailId__c}}</span></label>
+										
+								</div>
+								<div class="col-sm-4">
+									<label for="Name">LenderRepMobile : <span style="font-weight:normal">{{vm.Order.channelPartnerMobile__c}}</span></label>
+										
+								</div>
+						</div>
+						
+					</div>
+					</div> 
+                  </div>
+              </div>
+			
+	<div class="panel panel-info" ng-show="vm.orderFound">
+        <div class="panel-heading" data-toggle="collapse" data-target="#chan2"><span style="font-weight:normal"> CA / Tax consultant information</span>
+			
+        </div>
+              <div id="chan2" class="collapse in">
+				   <div class="panel-body">
+							<div class="container">
+							<div class="row">
+									<div class="col-sm-4">
+										<label for="Name" >BorrowerRepName :<span style="font-weight:normal"> {{vm.Order.salesExecutiveName__c}}</span></label>
+											
+									</div>
+									<div class="col-sm-4">
+										<label for="Name">BorrowerRepEmailId : <span style="font-weight:normal">{{vm.Order.salesExecutiveEmailId__c}}</span></label>
+											
+									</div>
+									<div class="col-sm-4">
+										<label for="Name">BorrowerRepMobile : <span style="font-weight:normal">{{vm.Order.salesExecutiveMobile__c}}</span></label>
+											
+									</div>
+							</div>
+							
+						</div>
+					</div> 
+                  </div>
+              </div>
+			
+			
+            </div>
+			
+		</div>
+		</div>
+		</div>
+		
+      
+    
+		<div class="col-lg-12" ng-show="vm.orderFound">
+            <div class="panel panel-default">
+                <div class="panel-footer">
+                    <div class="row">
+						<div class="col-sm-2.6 pull-right ">
+                             <a class="btn btn-danger btn-xs" ng-click="vm.Close()">
+                                <i class="fa fa-times"></i> Back
+                            </a>
+                        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+	</div>					
+</form>
+</div> 
+</body>
+</html>  

@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+<br></br>
+<div class="form-container">
+    
+    <% if(locals.error) { %>
+        <div class="alert alert-danger"><%= error %></div>
+    <% } %>
+    <% if(locals.success) { %>
+        <div class="alert alert-success"><%= success %></div>
+    <% } %>
+	
+	<div class="panel panel-default">
+    <div class="panel-heading"><h4 style="margin-left:.4cm;">FinFort Credit Application Ordering System</h4></div>
+	<div class="panel-body" >
+       <form method="post">
+        <div class="form-group">
+            <label for="username"><b style="color:black;">Username</b></label>
+            <input type="email" name="username" id="username" value="<%= locals.username || '' %>" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="password"><b style="color:black;">Password</b></label>
+            <input type="password" name="password" id="password" class="form-control" />
+        </div>
+        <div class="form-group">
+			<center>
+            <button type="submit" class="btn btn-primary"><b style="color:white;">Login</b></button>&nbsp;&nbsp;&nbsp;
+			<a href="/reset" class="btn btn-success"><b style="color:white;">Forgot Password</b></a>
+			<!--<a href="/itssregister" class="btn btn-link"><b style="color:black;">Register</b></a>-->
+			</center>
+        </div>
+    </form>
+	</div>
+	</div>
+</div>
+<%- include('partials/footer') %>

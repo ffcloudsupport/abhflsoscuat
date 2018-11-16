@@ -1,0 +1,32 @@
+[
+    {
+      "UserID": 1,
+      "username": "mkumar@finfort.ind.in",
+      "DivBranchName": "AdityaBirlaHFL_KAR-Mysuru",
+      "Branch_id": 1
+    },
+    {
+      "UserID": 2,
+      "username": "paradhya@finfort.ind.in",
+      "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
+      "Branch_id": 2
+    },
+    {
+        "UserID": 3,
+        "username": "kchudasama@finfort.ind.in",
+        "DivBranchName": "AdityaBirlaHFL_KAR-Mysuru",
+        "Branch_id": 1
+      },
+      {
+        "UserID": 3,
+        "username": "kchudasama@finfort.ind.in",
+        "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
+        "Branch_id": 2
+      },
+      {
+        "UserID": 4,
+        "username": "dvalsalan@finfort.ind.in",
+        "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
+        "Branch_id": 2
+      }
+]

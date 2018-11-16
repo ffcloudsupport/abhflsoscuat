@@ -1,0 +1,6 @@
+{
+    "connectionString": "mongodb://administrator:db!2345@@ds161426.mlab.com:61426/adityabirla",
+    "apiUrl":  "https://abhflsoscuat.herokuapp.com/api",
+    "secret": "REPLACE THIS WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}
+

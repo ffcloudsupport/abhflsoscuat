@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+    <meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	tr.th{
+		background-color:blue;
+	}
+</style>
+</head>
+<body>
+<br></br>
+<div class="form-container">
+	<div class="container"> 
+					<div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <i class="fa fa-tasks"></i> <b>Order details</b>
+                                    <a href="/#/order" type="button" class="btn btn-default btn-xs  text-right pull-right"><i class="fa fa-plus" ></i> New</a>
+                          
+                                </div>
+                            </div>
+                        </div>
+<div class="panel-body">						
+  <table class="table table-bordered">
+    <thead>
+      <tr border="1px">
+		<th bgcolor="#d9d9d9" style="color:black;">Reference No</th>
+        <th bgcolor="#d9d9d9" style="color:black;">Borrower Name</th>
+        <th bgcolor="#d9d9d9" style="color:black;">DOB</th>
+        <th bgcolor="#d9d9d9" style="color:black;">Email</th>
+		<th bgcolor="#d9d9d9" style="color:black;">Mobile</th>
+		<th bgcolor="#d9d9d9" style="color:black;">City</th>
+		<th bgcolor="#d9d9d9" style="color:black;">State</th>
+		<th bgcolor="#d9d9d9" style="color:black;">Country</th>
+		<th bgcolor="#d9d9d9" style="color:black;">Action</th>
+      </tr>
+    </thead>
+     <tbody ng-repeat="order in vm.OrderList">
+      <tr>
+		<td>{{order.LenderReferenceNumber__c}}</td>
+        <td>{{order.Borrower_First_Name__c}} {{order.Borrower_Last_Name__c}}</td>
+        <td>{{order.Date_Of_Birth__c}}</td>
+        <td>{{order.Loan_Applicant_Email__c}}</td>
+		<td>{{order.Loan_Applicant_Mobile__c}}</td>
+		<td>{{order.Loan_Applicant_City__c}}</td>
+		<td>{{order.Loan_Applicant_State__c}}</td>
+		<td>{{order.Country__c}}</td>
+		<td>
+			<div class="text-left col-md-offset-2">
+				<a>
+					<i class="glyphicon glyphicon-eye-open" style="color:green" data-toggle="tooltip" title="View"></i>
+				</a> &nbsp;
+				<a>
+					<i class="glyphicon glyphicon-edit" style="color:orange" data-toggle="tooltip" title="Edit" ></i>
+				</a> &nbsp;
+			</div>
+		</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div> 
+</div>
+</div>
+</body>
+</html>  

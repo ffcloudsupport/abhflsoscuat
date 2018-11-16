@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>FINFORT CAO System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+</head>
+<body class="container" ng-controller="Home.IndexController">
+    <!-- header -->
+	<header>
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+  <div class="navbar-header">
+      <a class="navbar-brand" href="#/"><font color="orange">FinFort</font> <font color="blue">Credit Application Ordering System</font></a>
+    </div>
+        <ul class="nav navbar-nav">
+           
+		   <li ng-class="{active: activeTab === 'order'}"><a ui-sref="order"><i class="glyphicon glyphicon-book" style="color:#ff8533"></i> <b> Create Order</b></a></li>
+           <li ng-class="{active: activeTab === 'account'}"><a ui-sref="account"><i class="glyphicon glyphicon-home" style="color:orange"></i> <b>Change Password</b></a></li>
+		   <!--<li  style="margin-left:9cm;"><a href="/login" target="_self"><i class="glyphicon glyphicon-log-out" style="color:#ff8533"></i> <b>Logout</b></a></li>-->
+        </ul>
+		 <ul class="nav navbar-nav pull-right">
+		 <li style="align:right">
+			<a href="/login" target="_self"><i class="glyphicon glyphicon-user" style="color:#ff8533"></i> <b class="text-capitalize">{{UserName}}</b> (Logout)</a>
+		 </li>
+		</ul>
+        
+ </div>
+ 
+ </nav>
+    </header>
+       <div class="flash-message" ng-if="flash">
+            <div class="{{'alert alert-' + flash.type}}" ng-bind="flash.message"></div>
+        </div>
+    <!-- main -->
+    <main ui-view></main>
+ 
+    <!-- footer -->
+    <footer>
+	<h4 style="margin-left:12cm;margin-top:5cm;color:white;"><b>Copyright @ 2017 Finfort LLP.All Rights Reserved</b></h4>
+	</footer>
+ 
+    <!-- external scripts -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <!-- application scripts -->
+    <script src="app.js"></script>
+    <script src="app-services/user.service.js"></script>
+    <script src="app-services/flash.service.js"></script>
+	<script src="app-services/SF.service.js"></script>
+    <script src="home/index.controller.js"></script>
+	<script src="order/index.controller.js"></script>
+	<script src="account/index.controller.js"></script>
+	<script src="OrderView/ovindex.controller.js"></script>
+	
+</body>
+</html>
+ 

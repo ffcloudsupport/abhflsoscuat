@@ -1,0 +1,120 @@
+<html>
+<head>
+<style>
+    <meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="app-content/app.css" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</style>
+</head>
+<body>
+<div class="form-container">
+<form method="post">
+<br></br>
+    <div class="row" >
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+				<div class="panel-heading" data-toggle="collapse" data-target="#lender"><b>Lender Order Information<b></div>
+                <div id="lender" class="collapse in">
+				<div class="panel-body">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-sm-3" >
+                                <label for="LenderReferenceNumber__c">Order Number <span style="color:red">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-order"></i></span>
+                                    	<input type="text" id="LenderReferenceNumber__c" class="form-control" ng-model="vm.Order.LenderReferenceNumber__c" placeholder="Enter Order Number" required />
+									</div>
+                            </div>
+							<div class="col-sm-3" >
+                                
+                            </div>
+							<div class="col-sm-3" >
+                                <button type="submit" class="btn btn-default"><b style="color:black;"> Search</b></button>&nbsp;&nbsp;&nbsp;
+							</div>
+                        </div>
+                    </div>
+                </div>
+				</div>
+            </div>
+			
+			<div class="panel panel-default">
+        <div class="panel-heading">
+        <h4 class="panel-title">
+             <a style="text-decoration:none" data-toggle="collapse" data-target="#demo1"><b style="color: black;"><i class="fa fa-list fa-fw"></i>Form Information</b></a> 
+             </h4>
+             </div>
+              <div id="demo1" class="collapse in">
+           <div class="panel-body">
+               <div class="panel-body">
+                   <table class="table table-striped ">
+                                  <tbody>
+                                    <tr>
+                                        <td width="15%"><b>Borrower Name</b></td>
+                                        <td >{{vm.Order[0].Borrower_First_Name__c}}+{{vm.Order[0].Borrower_Middle_Name__c}}+{{vm.Order[0].Borrower_Last_Name__c}}</td>
+                                        <td width="15%"><b>DOB</b></td>
+                                        <td >{{vm.Order[0].Date_Of_Birth__c}}</td>
+                                        <td width="15%" ><b>PAN</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_PAN__c}}</td>
+                                     </tr>
+                                     <tr>
+                                        <td width="15" ><b>Email</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_Email__c}}</td>
+                                        <td width="15" ><b>Street</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_Street__c}}</td>
+                                        <td width="15" ><b>City</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_City__c}}</td>
+                                    </tr>
+									<tr>
+                                        <td width="15" ><b>State</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_State__c}}</td>
+                                        <td width="15" ><b>Country</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_Country__c}}</td>
+                                        <td width="15" ><b>Mobile</b></td>
+                                        <td >{{vm.Order[0].Loan_Applicant_Mobile__c}}</td>
+                                    </tr>
+									<tr>
+                                        <td width="15" ><b>Additional Mobile</b></td>
+                                        <td >{{vm.Order[0].Additional_Mobile__c}}</td>
+                                        <td width="15" ><b></b></td>
+                                        <td ></td>
+										<td width="15" ><b></b></td>
+                                        <td ></td>
+                                    </tr>
+                                </tbody>
+                             </table>
+                           </div>
+                   </div> 
+                  </div>
+              </div>
+			
+			
+			
+            </div>
+			
+      
+    
+		<div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-footer">
+                    <div class="row">
+						<div class="col-sm-2.6 pull-right ">
+                            <a class="btn btn-success btn-xs" >
+                                <i class="fa fa-check-square-o"></i> Submit
+                            </a>
+                            <a class="btn btn-danger btn-xs">
+                                <i class="fa fa-times"></i> Cancel
+                            </a>
+                        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+	</div>					
+</form>
+</div> 
+</body>
+</html>  
