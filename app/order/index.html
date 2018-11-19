@@ -319,7 +319,7 @@ $( "#Date_Of_Birth__c" ).datepicker({ dateFormat: 'dd/mm/yy',
                         <div class="row">
 							<div class="col-sm-3">
                                 <div class="form-group" ng-class="{'has-error' : userForm1.refNo.$invalid && (userForm1.refNo.$dirty || submitted)}">
-                                 <label for="LenderReferenceNumber__c">Sales Reference Number <span style="color:red">*</span></label>
+                                 <label for="LenderReferenceNumber__c">Lender Reference Number <span style="color:red">*</span></label>
                                     <div class="input-group">
                                         <span class="input-group-addon"> <i class="glyphicon glyphicon-sort-by-alphabet"></i></span>
                                     	<input ng-if="vm.Order.DataPullOptionChosen__c=='CSR Assisted'" style="font-weight:normal;" type="text" id="LenderReferenceNumber__c" name="refNo" class="form-control"   ng-model="vm.Order.LenderReferenceNumber__c" ng-pattern="/^[a-zA-Z0-9]*$/" ng-maxlength="20"  placeholder="Enter lender Ref Number" required />
