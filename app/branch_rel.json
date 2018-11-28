@@ -1,32 +1,2066 @@
 [
-    {
-      "UserID": 1,
-      "username": "mkumar@finfort.ind.in",
-      "DivBranchName": "AdityaBirlaHFL_KAR-Mysuru",
-      "Branch_id": 1
-    },
-    {
-      "UserID": 2,
-      "username": "paradhya@finfort.ind.in",
-      "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
-      "Branch_id": 2
-    },
-    {
-        "UserID": 3,
-        "username": "kchudasama@finfort.ind.in",
-        "DivBranchName": "AdityaBirlaHFL_KAR-Mysuru",
-        "Branch_id": 1
-      },
-      {
-        "UserID": 3,
-        "username": "kchudasama@finfort.ind.in",
-        "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
-        "Branch_id": 2
-      },
-      {
-        "UserID": 4,
-        "username": "dvalsalan@finfort.ind.in",
-        "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
-        "Branch_id": 2
-      }
+  {
+    "UserID": 1,
+    "username": "Vikram.Hapawat@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 2,
+    "username": "niket.mantri@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 3,
+    "username": "farhan.shafeeq@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 4,
+    "username": "suvojit.dutt@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 5,
+    "username": "prafulla.sahu@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-ODH-Bhubaneswar",
+    "Branch_id": 49
+  },
+  {
+    "UserID": 6,
+    "username": "Somnath.Sarkar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 7,
+    "username": "sajjad.hossain@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 8,
+    "username": "Vindhya.Srivastava@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 9,
+    "username": "Sunil.Swain@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-ODH-Bhubaneswar",
+    "Branch_id": 49
+  },
+  {
+    "UserID": 10,
+    "username": "Anand.Vysyaraju@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 11,
+    "username": "a.mathur@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 12,
+    "username": "Gurpal.Bhumbra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 13,
+    "username": "Amitendra.Singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Lucknow",
+    "Branch_id": 68
+  },
+  {
+    "UserID": 14,
+    "username": "Siddharth.Singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "Branch_id": 51
+  },
+  {
+    "UserID": 15,
+    "username": "Chayan.Chowdhury@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 16,
+    "username": "ravindrasingh.mehta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 17,
+    "username": "parashurama.shivappa@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 18,
+    "username": "varinder.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "Branch_id": 51
+  },
+  {
+    "UserID": 19,
+    "username": "anupam.choudhury@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 20,
+    "username": "shailendra.r@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 21,
+    "username": "rakesh.gellu@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 22,
+    "username": "ishwar.patil@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 23,
+    "username": "pawan.rajwania@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 24,
+    "username": "rahul.dwivedi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Lucknow",
+    "Branch_id": 68
+  },
+  {
+    "UserID": 25,
+    "username": "hemant.parmar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 26,
+    "username": "nitin.gupta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "Branch_id": 45
+  },
+  {
+    "UserID": 27,
+    "username": "atul.bansal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UK-Dehradun",
+    "Branch_id": 67
+  },
+  {
+    "UserID": 28,
+    "username": "karan.sapra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 29,
+    "username": "suresh.s@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Lucknow",
+    "Branch_id": 68
+  },
+  {
+    "UserID": 30,
+    "username": "swapnil.shah@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 31,
+    "username": "sanjay.m.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 32,
+    "username": "manoranjan.k@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 33,
+    "username": "pandya.bhargav@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Rajkot",
+    "Branch_id": 28
+  },
+  {
+    "UserID": 34,
+    "username": "arvind.raghuwanshi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Bhopal",
+    "Branch_id": 46
+  },
+  {
+    "UserID": 35,
+    "username": "hasinul.kabir@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 36,
+    "username": "yogita.kapur@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 37,
+    "username": "yash.chawla@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "Branch_id": 38
+  },
+  {
+    "UserID": 38,
+    "username": "arindam.c@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 39,
+    "username": "devendra.gaharwar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 40,
+    "username": "nilesh.dubey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Bhopal",
+    "Branch_id": 46
+  },
+  {
+    "UserID": 41,
+    "username": "gajendra.ladwal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Aurangabad",
+    "Branch_id": 39
+  },
+  {
+    "UserID": 42,
+    "username": "virendra.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 43,
+    "username": "deepak.dangayach@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 44,
+    "username": "kalvindar.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nashik",
+    "Branch_id": 40
+  },
+  {
+    "UserID": 45,
+    "username": "yazad.madan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 46,
+    "username": "sudhakara.gr@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 47,
+    "username": "visharad.yaltiwar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 48,
+    "username": "a.srivastava@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Aurangabad",
+    "Branch_id": 39
+  },
+  {
+    "UserID": 49,
+    "username": "prasad.joshi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 50,
+    "username": "pankaj.l.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 51,
+    "username": "nandakumar.m@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 52,
+    "username": "jai.mehta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 53,
+    "username": "maharshi.mishra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "Branch_id": 45
+  },
+  {
+    "UserID": 54,
+    "username": "prashant.gite@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nashik",
+    "Branch_id": 40
+  },
+  {
+    "UserID": 55,
+    "username": "KrishnaMoorty.L@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 56,
+    "username": "inderjeet.kohli@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Lucknow",
+    "Branch_id": 68
+  },
+  {
+    "UserID": 57,
+    "username": "pawan.a@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Agra",
+    "Branch_id": 69
+  },
+  {
+    "UserID": 58,
+    "username": "Bharath.Ramachandra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 59,
+    "username": "Abhijeet.Hulawale@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 60,
+    "username": "sudip.d@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 61,
+    "username": "meharuddin.anshari@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 62,
+    "username": "balvinder.shemby@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 63,
+    "username": "sunilkumar.m@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 64,
+    "username": "nilay.dalal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 65,
+    "username": "gairik.sen@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 66,
+    "username": "yusuf.shaikh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 67,
+    "username": "rajesh.davne@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "Branch_id": 38
+  },
+  {
+    "UserID": 68,
+    "username": "shailesh.gurav@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 69,
+    "username": "koustav.sengupta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 70,
+    "username": "sandip.c@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 71,
+    "username": "harmeet.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 72,
+    "username": "sanjeev.chaudhary@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "Branch_id": 51
+  },
+  {
+    "UserID": 73,
+    "username": "p.patil@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nashik",
+    "Branch_id": 40
+  },
+  {
+    "UserID": 74,
+    "username": "harman.dang@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 75,
+    "username": "imtiaz.patel@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "Branch_id": 38
+  },
+  {
+    "UserID": 76,
+    "username": "puneet.bhasin@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 77,
+    "username": "Nitin.Goel@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 78,
+    "username": "upendra.b.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jodhpur",
+    "Branch_id": 57
+  },
+  {
+    "UserID": 79,
+    "username": "sadhana.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 80,
+    "username": "nikhil.ojha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 81,
+    "username": "ajab.kushwaha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 82,
+    "username": "praveen.ssrivastava@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 83,
+    "username": "sandeep.c.pandey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 84,
+    "username": "santosh.nimse@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 85,
+    "username": "siddhu.halakatti@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 86,
+    "username": "shyam.nair@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "Branch_id": 45
+  },
+  {
+    "UserID": 87,
+    "username": "sachinkumar.raskar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 88,
+    "username": "venkateshwarlu.goli@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 89,
+    "username": "nivruti.naik@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "Branch_id": 38
+  },
+  {
+    "UserID": 90,
+    "username": "arun.sethi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 91,
+    "username": "ajay.n@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 92,
+    "username": "vishwanath.s@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 93,
+    "username": "vijay.r.sharma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 94,
+    "username": "appish.jain@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 95,
+    "username": "ravinder.g.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Ludhiana",
+    "Branch_id": 52
+  },
+  {
+    "UserID": 96,
+    "username": "ajay.gautam@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Agra",
+    "Branch_id": 69
+  },
+  {
+    "UserID": 97,
+    "username": "shyamsundar.km@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 98,
+    "username": "amruta.kapoor@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 99,
+    "username": "sheikhabu.ertaza@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 100,
+    "username": "mathankumar.s@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 101,
+    "username": "nagaraju.mvs@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 102,
+    "username": "nikhil.menon@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 103,
+    "username": "Prabhat.Ranjan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "Branch_id": 45
+  },
+  {
+    "UserID": 104,
+    "username": "krishna.m.k@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 105,
+    "username": "sidharth.r.sharma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 106,
+    "username": "vaibhav.desai@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 107,
+    "username": "zishan.ali@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 108,
+    "username": "suresh.vasudevan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 109,
+    "username": "bhavik.b.patel@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 110,
+    "username": "nageswararao.kilaru@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vijayawada",
+    "Branch_id": 18
+  },
+  {
+    "UserID": 111,
+    "username": "amit.dua@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 112,
+    "username": "prabhu.a@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 113,
+    "username": "arun.rajendran@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 114,
+    "username": "pranay.tandon@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 115,
+    "username": "adisesha.j@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 116,
+    "username": "kaushik.chandran@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Coimbatore",
+    "Branch_id": 62
+  },
+  {
+    "UserID": 117,
+    "username": "rajesh.ranganathan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 118,
+    "username": "ashwini.hazarika@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 119,
+    "username": "sathishkumar.c@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 120,
+    "username": "susanta.basak@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 121,
+    "username": "satendra.purohit@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 122,
+    "username": "avishek.bose@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 123,
+    "username": "sanjay.chauhan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Panipat",
+    "Branch_id": 33
+  },
+  {
+    "UserID": 124,
+    "username": "kaushalendra.kishore@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 125,
+    "username": "sekhar.tnvd@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vijayawada",
+    "Branch_id": 18
+  },
+  {
+    "UserID": 126,
+    "username": "mahesh.patil3@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 127,
+    "username": "singaraja.t@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 128,
+    "username": "amalavijay.s@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 129,
+    "username": "ganesh.pundot@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 130,
+    "username": "surojit.bose@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 131,
+    "username": "roopeshkumar.g@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 132,
+    "username": "sandip.gidwani@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 133,
+    "username": "manoj.dubey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "Branch_id": 38
+  },
+  {
+    "UserID": 134,
+    "username": "asif.pasha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 135,
+    "username": "nitin.verma1@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 136,
+    "username": "rajchandra.khurana@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 137,
+    "username": "shabeehabbas.syed@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 138,
+    "username": "pavankumar.vegi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vizag",
+    "Branch_id": 19
+  },
+  {
+    "UserID": 139,
+    "username": "amol.gurav@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 140,
+    "username": "vinod.jadhav2@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 141,
+    "username": "sunil.gajjar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 142,
+    "username": "manoj.rajput@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nashik",
+    "Branch_id": 40
+  },
+  {
+    "UserID": 143,
+    "username": "ankit.pandey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 144,
+    "username": "vairamuthu.s@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 145,
+    "username": "sumit.verma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "Branch_id": 51
+  },
+  {
+    "UserID": 146,
+    "username": "gaurav.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "Branch_id": 51
+  },
+  {
+    "UserID": 147,
+    "username": "sarabjeet.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Ludhiana",
+    "Branch_id": 52
+  },
+  {
+    "UserID": 148,
+    "username": "shivaprasanna.jukanti@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 149,
+    "username": "gaurav.jain1@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 150,
+    "username": "hemant.pawar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 151,
+    "username": "Sibasis.Das@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-ODH-Bhubaneswar",
+    "Branch_id": 49
+  },
+  {
+    "UserID": 152,
+    "username": "Dhananjay.Sakhadeo@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 153,
+    "username": "sanjeev.kumar3@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 154,
+    "username": "Karthikeyan.Va@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Coimbatore",
+    "Branch_id": 62
+  },
+  {
+    "UserID": 155,
+    "username": "sajal.tiwari@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 156,
+    "username": "elavarasan.b@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 157,
+    "username": "swati.singhal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UK-Dehradun",
+    "Branch_id": 67
+  },
+  {
+    "UserID": 158,
+    "username": "ramakant.naikade@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 159,
+    "username": "arun.yadav@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 160,
+    "username": "parth.joshi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Rajkot",
+    "Branch_id": 28
+  },
+  {
+    "UserID": 161,
+    "username": "Manesh.Sharma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 162,
+    "username": "Santanu.Ghosh1@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 163,
+    "username": "Tejas.Bapodra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Rajkot",
+    "Branch_id": 28
+  },
+  {
+    "UserID": 164,
+    "username": "Sudesh.Khaire@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 165,
+    "username": "rajesh.hanwat@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "Branch_id": 45
+  },
+  {
+    "UserID": 166,
+    "username": "ratheeshkumar.rajan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Coimbatore",
+    "Branch_id": 62
+  },
+  {
+    "UserID": 167,
+    "username": "Muralimanoharan.Sp@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 168,
+    "username": "Rushirajsinh.Parmar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Rajkot",
+    "Branch_id": 28
+  },
+  {
+    "UserID": 169,
+    "username": "ranjit.choudhary@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 170,
+    "username": "Avinit.Anand@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 171,
+    "username": "Abdulwajid.Shadab@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 172,
+    "username": "Siva.Kalahasthi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 173,
+    "username": "krishna.chaubey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 174,
+    "username": "Kasturi.Thengdi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 175,
+    "username": "dharini.bs@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 176,
+    "username": "lakshmisoundarya.s@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 177,
+    "username": "Firoza.Pandrowala@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 178,
+    "username": "Robin.Godha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 179,
+    "username": "Bharat.Vishwakarma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 180,
+    "username": "Vuppala.Ranjith@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 181,
+    "username": "Mriganka.Nath@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 182,
+    "username": "Sakina.Abbas@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 183,
+    "username": "Pankaj.Chaudhary@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "Branch_id": 51
+  },
+  {
+    "UserID": 184,
+    "username": "James.Kerketta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 185,
+    "username": "Vivekanand.Singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 186,
+    "username": "Lakshmi.M@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vijayawada",
+    "Branch_id": 18
+  },
+  {
+    "UserID": 187,
+    "username": "Anil.Gaikwad@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Aurangabad",
+    "Branch_id": 39
+  },
+  {
+    "UserID": 188,
+    "username": "Sourav.Gupta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 189,
+    "username": "Haribol.Swami@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-ODH-Bhubaneswar",
+    "Branch_id": 49
+  },
+  {
+    "UserID": 190,
+    "username": "Harshit.Sharma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 191,
+    "username": "Harshit.Gupta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 192,
+    "username": "Niraj.Saraf@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "Branch_id": 24
+  },
+  {
+    "UserID": 193,
+    "username": "Varsha.Golani@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "Branch_id": 26
+  },
+  {
+    "UserID": 194,
+    "username": "Ankit.Deshpande@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 195,
+    "username": "Ashish.Kadam@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 196,
+    "username": "Vikas.Singh2@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 197,
+    "username": "Rantosh.Vishwakarma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 198,
+    "username": "rishi.soni@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 199,
+    "username": "Sachin.Nagtilak@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 200,
+    "username": "Dipak.Hasure@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 201,
+    "username": "Ajeet.Kumar3@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 202,
+    "username": "STALIN.ND@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 203,
+    "username": "Kailas.Patil@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 204,
+    "username": "rahul.kumar14@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 205,
+    "username": "Divya.Raina@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "Branch_id": 37
+  },
+  {
+    "UserID": 206,
+    "username": "Rahul.Agarwal3@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Lucknow",
+    "Branch_id": 68
+  },
+  {
+    "UserID": 207,
+    "username": "Piyush.Kakkar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Ludhiana",
+    "Branch_id": 52
+  },
+  {
+    "UserID": 208,
+    "username": "Mayank.Modi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "Branch_id": 27
+  },
+  {
+    "UserID": 209,
+    "username": "Sangram.Nalavade@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 210,
+    "username": "Muralidhara.R@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "Branch_id": 35
+  },
+  {
+    "UserID": 211,
+    "username": "Sandeep.Kushwaha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 212,
+    "username": "VISHAL.MALVIYA@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Bhopal",
+    "Branch_id": 46
+  },
+  {
+    "UserID": 213,
+    "username": "SHAHUL.M@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "Branch_id": 61
+  },
+  {
+    "UserID": 214,
+    "username": "Nitin.Pandya@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jodhpur",
+    "Branch_id": 57
+  },
+  {
+    "UserID": 215,
+    "username": "Kunal.Kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 216,
+    "username": "Vijay.Shrimali@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Udaipur",
+    "Branch_id": 58
+  },
+  {
+    "UserID": 217,
+    "username": "Bijoy.Mondal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "Branch_id": 75
+  },
+  {
+    "UserID": 218,
+    "username": "Ghanshyam.Chouhan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "Branch_id": 45
+  },
+  {
+    "UserID": 219,
+    "username": "Roshan.Hirulkar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "Branch_id": 54
+  },
+  {
+    "UserID": 220,
+    "username": "Kooreti.Ganesh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 221,
+    "username": "c.mishra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 222,
+    "username": "Chandi.Goud@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 223,
+    "username": "Ravinder.Anugu@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "Branch_id": 65
+  },
+  {
+    "UserID": 224,
+    "username": "ssreddy.nallamilli@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vizag",
+    "Branch_id": 19
+  },
+  {
+    "UserID": 225,
+    "username": "varaprasad.t@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vizag",
+    "Branch_id": 19
+  },
+  {
+    "UserID": 226,
+    "username": "mukesh.a.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 227,
+    "username": "rohit.r.sharma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 228,
+    "username": "Anil.Thadishetty@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "Branch_id": 66
+  },
+  {
+    "UserID": 229,
+    "username": "manoj.rpareek@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-RJ-Jaipur",
+    "Branch_id": 59
+  },
+  {
+    "UserID": 230,
+    "username": "anil.lachwani@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-RJ-Jaipur",
+    "Branch_id": 59
+  },
+  {
+    "UserID": 231,
+    "username": "abhijeet.lal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Nagpur",
+    "Branch_id": 41
+  },
+  {
+    "UserID": 232,
+    "username": "raju.a1@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "Branch_id": 66
+  },
+  {
+    "UserID": 233,
+    "username": "sai.k@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "Branch_id": 66
+  },
+  {
+    "UserID": 234,
+    "username": "manish.m.jain@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-HR-Gurgaon",
+    "Branch_id": 34
+  },
+  {
+    "UserID": 235,
+    "username": "inderdeep.bedi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Meerut",
+    "Branch_id": 70
+  },
+  {
+    "UserID": 236,
+    "username": "devender.avadhutha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "Branch_id": 66
+  },
+  {
+    "UserID": 237,
+    "username": "omesh.vishvahar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-CHS-Raipur",
+    "Branch_id": 22
+  },
+  {
+    "UserID": 238,
+    "username": "nikhil.kelkar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Ahmedabad",
+    "Branch_id": 29
+  },
+  {
+    "UserID": 239,
+    "username": "rsrinivasa.varadhan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Chennai",
+    "Branch_id": 63
+  },
+  {
+    "UserID": 240,
+    "username": "kawaljeet.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Lucknow",
+    "Branch_id": 71
+  },
+  {
+    "UserID": 241,
+    "username": "sunny.chowdhary@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Lucknow",
+    "Branch_id": 71
+  },
+  {
+    "UserID": 242,
+    "username": "mithilesh.m.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Noida",
+    "Branch_id": 72
+  },
+  {
+    "UserID": 243,
+    "username": "akhilesh.chandrakar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-CHS-Raipur",
+    "Branch_id": 22
+  },
+  {
+    "UserID": 244,
+    "username": "rajkumar.j@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-CHS-Raipur",
+    "Branch_id": 22
+  },
+  {
+    "UserID": 245,
+    "username": "ramakrishna.aravolu@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "Branch_id": 66
+  },
+  {
+    "UserID": 246,
+    "username": "yogesh.bajaj@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-RJ-Jaipur",
+    "Branch_id": 59
+  },
+  {
+    "UserID": 247,
+    "username": "amit.vijaywargiya@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Indore",
+    "Branch_id": 47
+  },
+  {
+    "UserID": 248,
+    "username": "jayakumar.n@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Coimbatore",
+    "Branch_id": 64
+  },
+  {
+    "UserID": 249,
+    "username": "deval.patel@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Ahmedabad",
+    "Branch_id": 29
+  },
+  {
+    "UserID": 250,
+    "username": "nawnit.pandey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Surat",
+    "Branch_id": 30
+  },
+  {
+    "UserID": 251,
+    "username": "k.panchal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Baroda",
+    "Branch_id": 31
+  },
+  {
+    "UserID": 252,
+    "username": "dipak.mohanty@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-ODH-Bhubaneswar",
+    "Branch_id": 50
+  },
+  {
+    "UserID": 253,
+    "username": "gourav.luthra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 254,
+    "username": "lavansh.rastogi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-HR-Gurgaon",
+    "Branch_id": 34
+  },
+  {
+    "UserID": 255,
+    "username": "sandeep.l.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 256,
+    "username": "venkatesan.k@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Chennai",
+    "Branch_id": 63
+  },
+  {
+    "UserID": 257,
+    "username": "sandeep.suryawanshi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "Branch_id": 42
+  },
+  {
+    "UserID": 258,
+    "username": "amit.bagri@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-RJ-Jaipur",
+    "Branch_id": 59
+  },
+  {
+    "UserID": 259,
+    "username": "rahul.gujarathi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "Branch_id": 42
+  },
+  {
+    "UserID": 260,
+    "username": "sankalp.gourang@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-RJ-Jaipur",
+    "Branch_id": 59
+  },
+  {
+    "UserID": 261,
+    "username": "sreenivas.mylavarapu@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "Branch_id": 66
+  },
+  {
+    "UserID": 262,
+    "username": "saurabh.s.mishra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Indore",
+    "Branch_id": 47
+  },
+  {
+    "UserID": 263,
+    "username": "manas.t@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-ODH-Bhubaneswar",
+    "Branch_id": 50
+  },
+  {
+    "UserID": 264,
+    "username": "rajesh.csingh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "Branch_id": 42
+  },
+  {
+    "UserID": 265,
+    "username": "shobhit.chitransh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Lucknow",
+    "Branch_id": 71
+  },
+  {
+    "UserID": 266,
+    "username": "bharat.rathore@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Indore",
+    "Branch_id": 47
+  },
+  {
+    "UserID": 267,
+    "username": "hemanta.patrapilli@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-AP-Vizag",
+    "Branch_id": 20
+  },
+  {
+    "UserID": 268,
+    "username": "ram.maurya@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "Branch_id": 42
+  },
+  {
+    "UserID": 269,
+    "username": "manojkumar.bhoir@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "Branch_id": 42
+  },
+  {
+    "UserID": 270,
+    "username": "anil.shastri@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 271,
+    "username": "amrit.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Lucknow",
+    "Branch_id": 71
+  },
+  {
+    "UserID": 272,
+    "username": "pramit.dutta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 273,
+    "username": "romeo.das@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 274,
+    "username": "vijaya.mn@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-KA-Bengaluru",
+    "Branch_id": 36
+  },
+  {
+    "UserID": 275,
+    "username": "sachin.dhiman@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 276,
+    "username": "sunil.raghuvanshi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Bhopal",
+    "Branch_id": 48
+  },
+  {
+    "UserID": 277,
+    "username": "shobhit.paliwal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Indore",
+    "Branch_id": 47
+  },
+  {
+    "UserID": 278,
+    "username": "balaji.s1@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Coimbatore",
+    "Branch_id": 64
+  },
+  {
+    "UserID": 279,
+    "username": "raju.shahi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Bhopal",
+    "Branch_id": 48
+  },
+  {
+    "UserID": 280,
+    "username": "shamik.roychoudhury@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 281,
+    "username": "vikas.patel@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Baroda",
+    "Branch_id": 31
+  },
+  {
+    "UserID": 282,
+    "username": "archana.kaware@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Nagpur",
+    "Branch_id": 41
+  },
+  {
+    "UserID": 283,
+    "username": "kul.bajaj@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Noida",
+    "Branch_id": 72
+  },
+  {
+    "UserID": 284,
+    "username": "Rakesh.Kumar18@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 285,
+    "username": "Anil.Patel@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Bhopal",
+    "Branch_id": 48
+  },
+  {
+    "UserID": 286,
+    "username": "Sumit.Jain@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Indore",
+    "Branch_id": 47
+  },
+  {
+    "UserID": 287,
+    "username": "Chandan.Kumar7@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 288,
+    "username": "Gobinda.Ray@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 289,
+    "username": "Mukesh.Choudhary@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 290,
+    "username": "Govindarajan.N@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Coimbatore",
+    "Branch_id": 64
+  },
+  {
+    "UserID": 291,
+    "username": "Shailendra.Sisodia@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "Branch_id": 42
+  },
+  {
+    "UserID": 292,
+    "username": "Gangadhar.Sahu@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-ODH-Bhubaneswar",
+    "Branch_id": 50
+  },
+  {
+    "UserID": 293,
+    "username": "Adity.Sahi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "Branch_id": 53
+  },
+  {
+    "UserID": 294,
+    "username": "Arvind.Singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Surat",
+    "Branch_id": 30
+  },
+  {
+    "UserID": 295,
+    "username": "PINKESH.BHALE@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Surat",
+    "Branch_id": 30
+  },
+  {
+    "UserID": 296,
+    "username": "Manoj.pandey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Noida",
+    "Branch_id": 72
+  },
+  {
+    "UserID": 297,
+    "username": "Ketan.Jawale@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PUN-Pune",
+    "Branch_id": 55
+  },
+  {
+    "UserID": 298,
+    "username": "Vijaykumar.T@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Chennai",
+    "Branch_id": 63
+  },
+  {
+    "UserID": 299,
+    "username": "Kavan.Dabhi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Ahmedabad",
+    "Branch_id": 29
+  },
+  {
+    "UserID": 300,
+    "username": "Sunil.Purohit@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Surat",
+    "Branch_id": 30
+  },
+  {
+    "UserID": 301,
+    "username": "Mainak.Bhattacharyya@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 302,
+    "username": "Santosh.Mishra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "Branch_id": 76
+  },
+  {
+    "UserID": 303,
+    "username": "Abhijit.Nerlekar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-PUN-Pune",
+    "Branch_id": 55
+  },
+  {
+    "UserID": 304,
+    "username": "RAHUL.SINGH@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Noida",
+    "Branch_id": 72
+  },
+  {
+    "UserID": 305,
+    "username": "Venkateshan.S@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Chennai",
+    "Branch_id": 63
+  },
+  {
+    "UserID": 306,
+    "username": "Imran.Khan1@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-KA-Bengaluru",
+    "Branch_id": 36
+  },
+  {
+    "UserID": 307,
+    "username": "dinesh.b.mishra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Kanpur",
+    "Branch_id": 73
+  },
+  {
+    "UserID": 308,
+    "username": "anubhav.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Kanpur",
+    "Branch_id": 73
+  },
+  {
+    "UserID": 309,
+    "username": "Umesh.Srivastava@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Kanpur",
+    "Branch_id": 73
+  },
+  {
+    "UserID": 310,
+    "username": "nikhil.gupta4@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "Branch_id": 32
+  },
+  {
+    "UserID": 311,
+    "username": "Sharad.Anand@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Janakpuri",
+    "Branch_id": 25
+  },
+  {
+    "UserID": 312,
+    "username": "kapil.m.sharma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Janakpuri",
+    "Branch_id": 25
+  },
+  {
+    "UserID": 313,
+    "username": "aayush.gupta@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Janakpuri",
+    "Branch_id": 25
+  },
+  {
+    "UserID": 314,
+    "username": "mohit.arora@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Janakpuri",
+    "Branch_id": 25
+  },
+  {
+    "UserID": 315,
+    "username": "anoop.bangwal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Janakpuri",
+    "Branch_id": 25
+  },
+  {
+    "UserID": 316,
+    "username": "bhupal.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 317,
+    "username": "nagesh.s@adityabirla.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 318,
+    "username": "deep.k.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 319,
+    "username": "danish.reza@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 320,
+    "username": "aman.gautam@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 321,
+    "username": "brajpal.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 322,
+    "username": "diwakar.choubey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 323,
+    "username": "lalvirendra.singh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 324,
+    "username": "vishanu.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 325,
+    "username": "rahul.rawat@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 326,
+    "username": "ravi.jha@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 327,
+    "username": "puneet.kumar3@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 328,
+    "username": "Ajay.Kushwah@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "Branch_id": 74
+  },
+  {
+    "UserID": 329,
+    "username": "bidush.pattnaik@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "Branch_id": 23
+  },
+  {
+    "UserID": 330,
+    "username": "ajay.s.verma@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "Branch_id": 23
+  },
+  {
+    "UserID": 331,
+    "username": "rakesh.kmishra@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "Branch_id": 23
+  },
+  {
+    "UserID": 332,
+    "username": "irshad.khan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "Branch_id": 23
+  },
+  {
+    "UserID": 333,
+    "username": "venkat.rao@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "Branch_id": 23
+  },
+  {
+    "UserID": 334,
+    "username": "Vivek.Pandey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "Branch_id": 23
+  },
+  {
+    "UserID": 335,
+    "username": "Surajit.Ghoshal@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Siliguri",
+    "Branch_id": 77
+  },
+  {
+    "UserID": 336,
+    "username": "jubil.varghese@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nagpur",
+    "Branch_id": 44
+  },
+  {
+    "UserID": 337,
+    "username": "rahul.akhare@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nagpur",
+    "Branch_id": 44
+  },
+  {
+    "UserID": 338,
+    "username": "ashwin.chinchamalatpure@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nagpur",
+    "Branch_id": 44
+  },
+  {
+    "UserID": 339,
+    "username": "rohit.rkumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Ajmer",
+    "Branch_id": 60
+  },
+  {
+    "UserID": 340,
+    "username": "Viral.Gandhi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Baroda",
+    "Branch_id": 31
+  },
+  {
+    "UserID": 66,
+    "username": "yusuf.shaikh@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-NaviMumbai",
+    "Branch_id": 43
+  },
+  {
+    "UserID": 341,
+    "username": "sureshkumar.p@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-AP-Vijayawada",
+    "Branch_id": 21
+  },
+  {
+    "UserID": 342,
+    "username": "mnvsiva.kumar@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-AP-Vijayawada",
+    "Branch_id": 21
+  },
+  {
+    "UserID": 343,
+    "username": "srikanth.gopi@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_AL-AP-Vijayawada",
+    "Branch_id": 21
+  }
 ]

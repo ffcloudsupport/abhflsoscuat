@@ -1,17 +1,387 @@
-[{
-    "DivBranchName": "AdityaBirlaHFL_KAR-Mysuru",
+[
+  {
     "DivBranchID": 1,
-    "ParentID": 1
-  },
-{
-    "DivBranchID": 1,
-    "DivBranchName": "KAR",
+    "DivBranchName": "AP",
     "ParentID": "NULL"
   },
   {
     "DivBranchID": 2,
-    "DivBranchName": "AdityaBirlaHFL_KAR-Bangalore",
+    "DivBranchName": "CHS",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 3,
+    "DivBranchName": "DL",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 4,
+    "DivBranchName": "GUJ",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 5,
+    "DivBranchName": "HR",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 6,
+    "DivBranchName": "KA",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 7,
+    "DivBranchName": "MH",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 8,
+    "DivBranchName": "MP",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 9,
+    "DivBranchName": "ODH",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 10,
+    "DivBranchName": "PB",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 11,
+    "DivBranchName": "PUN",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 12,
+    "DivBranchName": "RJ",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 13,
+    "DivBranchName": "TN",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 14,
+    "DivBranchName": "TS",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 15,
+    "DivBranchName": "UK",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 16,
+    "DivBranchName": "UP",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 17,
+    "DivBranchName": "WB",
+    "ParentID": "NULL"
+  },
+  {
+    "DivBranchID": 18,
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vijayawada",
     "ParentID": 1
+  },
+  {
+    "DivBranchID": 19,
+    "DivBranchName": "AdityaBirlaHFL_PL-AP-Vizag",
+    "ParentID": 1
+  },
+  {
+    "DivBranchID": 20,
+    "DivBranchName": "AdityaBirlaHFL_AL-AP-Vizag",
+    "ParentID": 1
+  },
+  {
+    "DivBranchID": 21,
+    "DivBranchName": "AdityaBirlaHFL_AL-AP-Vijayawada",
+    "ParentID": 1
+  },
+  {
+    "DivBranchID": 22,
+    "DivBranchName": "AdityaBirlaHFL_AL-CHS-Raipur",
+    "ParentID": 2
+  },
+  {
+    "DivBranchID": 23,
+    "DivBranchName": "AdityaBirlaHFL_PL-CHS-Raipur",
+    "ParentID": 2
+  },
+  {
+    "DivBranchID": 24,
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-NewDelhi_PS",
+    "ParentID": 3
+  },
+  {
+    "DivBranchID": 25,
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Janakpuri",
+    "ParentID": 3
+  },
+  {
+    "DivBranchID": 26,
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Ahmedabad",
+    "ParentID": 4
+  },
+  {
+    "DivBranchID": 27,
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Surat",
+    "ParentID": 4
+  },
+  {
+    "DivBranchID": 28,
+    "DivBranchName": "AdityaBirlaHFL_PL-GUJ-Rajkot",
+    "ParentID": 4
+  },
+  {
+    "DivBranchID": 29,
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Ahmedabad",
+    "ParentID": 4
+  },
+  {
+    "DivBranchID": 30,
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Surat",
+    "ParentID": 4
+  },
+  {
+    "DivBranchID": 31,
+    "DivBranchName": "AdityaBirlaHFL_AL-GUJ-Baroda",
+    "ParentID": 4
+  },
+  {
+    "DivBranchID": 32,
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Gurgaon",
+    "ParentID": 5
+  },
+  {
+    "DivBranchID": 33,
+    "DivBranchName": "AdityaBirlaHFL_PL-HR-Panipat",
+    "ParentID": 5
+  },
+  {
+    "DivBranchID": 34,
+    "DivBranchName": "AdityaBirlaHFL_AL-HR-Gurgaon",
+    "ParentID": 5
+  },
+  {
+    "DivBranchID": 35,
+    "DivBranchName": "AdityaBirlaHFL_PL-KA-Bengaluru",
+    "ParentID": 6
+  },
+  {
+    "DivBranchID": 36,
+    "DivBranchName": "AdityaBirlaHFL_AL-KA-Bengaluru",
+    "ParentID": 6
+  },
+  {
+    "DivBranchID": 37,
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Mumbai",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 38,
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 39,
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Aurangabad",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 40,
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nashik",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 41,
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Nagpur",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 42,
+    "DivBranchName": "AdityaBirlaHFL_AL-MH-Mumbai",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 43,
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-NaviMumbai",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 44,
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Nagpur",
+    "ParentID": 7
+  },
+  {
+    "DivBranchID": 45,
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Indore",
+    "ParentID": 8
+  },
+  {
+    "DivBranchID": 46,
+    "DivBranchName": "AdityaBirlaHFL_PL-MP-Bhopal",
+    "ParentID": 8
+  },
+  {
+    "DivBranchID": 47,
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Indore",
+    "ParentID": 8
+  },
+  {
+    "DivBranchID": 48,
+    "DivBranchName": "AdityaBirlaHFL_AL-MP-Bhopal",
+    "ParentID": 8
+  },
+  {
+    "DivBranchID": 49,
+    "DivBranchName": "AdityaBirlaHFL_PL-ODH-Bhubaneswar",
+    "ParentID": 9
+  },
+  {
+    "DivBranchID": 50,
+    "DivBranchName": "AdityaBirlaHFL_AL-ODH-Bhubaneswar",
+    "ParentID": 9
+  },
+  {
+    "DivBranchID": 51,
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Chandigarh",
+    "ParentID": 10
+  },
+  {
+    "DivBranchID": 52,
+    "DivBranchName": "AdityaBirlaHFL_PL-PB-Ludhiana",
+    "ParentID": 10
+  },
+  {
+    "DivBranchID": 53,
+    "DivBranchName": "AdityaBirlaHFL_AL-PB-Chandigarh",
+    "ParentID": 10
+  },
+  {
+    "DivBranchID": 54,
+    "DivBranchName": "AdityaBirlaHFL_PL-PUN-Pune",
+    "ParentID": 11
+  },
+  {
+    "DivBranchID": 55,
+    "DivBranchName": "AdityaBirlaHFL_AL-PUN-Pune",
+    "ParentID": 11
+  },
+  {
+    "DivBranchID": 56,
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "ParentID": 12
+  },
+  {
+    "DivBranchID": 57,
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jodhpur",
+    "ParentID": 12
+  },
+  {
+    "DivBranchID": 58,
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Udaipur",
+    "ParentID": 12
+  },
+  {
+    "DivBranchID": 59,
+    "DivBranchName": "AdityaBirlaHFL_AL-RJ-Jaipur",
+    "ParentID": 12
+  },
+  {
+    "DivBranchID": 60,
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Ajmer",
+    "ParentID": 12
+  },
+  {
+    "DivBranchID": 61,
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Chennai",
+    "ParentID": 13
+  },
+  {
+    "DivBranchID": 62,
+    "DivBranchName": "AdityaBirlaHFL_PL-TN-Coimbatore",
+    "ParentID": 13
+  },
+  {
+    "DivBranchID": 63,
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Chennai",
+    "ParentID": 13
+  },
+  {
+    "DivBranchID": 64,
+    "DivBranchName": "AdityaBirlaHFL_AL-TN-Coimbatore",
+    "ParentID": 13
+  },
+  {
+    "DivBranchID": 65,
+    "DivBranchName": "AdityaBirlaHFL_PL-TS-Hyderabad",
+    "ParentID": 14
+  },
+  {
+    "DivBranchID": 66,
+    "DivBranchName": "AdityaBirlaHFL_AL-TS-Hyderabad",
+    "ParentID": 14
+  },
+  {
+    "DivBranchID": 67,
+    "DivBranchName": "AdityaBirlaHFL_PL-UK-Dehradun",
+    "ParentID": 15
+  },
+  {
+    "DivBranchID": 68,
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Lucknow",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 69,
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Agra",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 70,
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Meerut",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 71,
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Lucknow",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 72,
+    "DivBranchName": "AdityaBirlaHFL_AL-UP-Noida",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 73,
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Kanpur",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 74,
+    "DivBranchName": "AdityaBirlaHFL_PL-UP-Noida",
+    "ParentID": 16
+  },
+  {
+    "DivBranchID": 75,
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Kolkata",
+    "ParentID": 17
+  },
+  {
+    "DivBranchID": 76,
+    "DivBranchName": "AdityaBirlaHFL_AL-WB-Kolkata",
+    "ParentID": 17
+  },
+  {
+    "DivBranchID": 77,
+    "DivBranchName": "AdityaBirlaHFL_PL-WB-Siliguri",
+    "ParentID": 17
   }
-
 ]
