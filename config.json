@@ -1,5 +1,5 @@
 {
-    "connectionString": "mongodb://aabhflsosc-uat.ap-south-1.elasticbeanstalk.comdministrator:proddb!2345@ds263493.mlab.com:63493/adityabirlaproduction",
-    "apiUrl":  "https://abhflsoscuat.herokuapp.com/api",
+    "connectionString": "mongodb://administrator:db!2345@ds161426.mlab.com:61426/adityabirla",
+    "apiUrl":  "http://abhflsosc-prod.ap-south-1.elasticbeanstalk.com/api",
     "secret": "REPLACE THIS WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
 }
