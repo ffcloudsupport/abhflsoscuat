@@ -2062,5 +2062,47 @@
     "username": "srikanth.gopi@adityabirlacapital.com",
     "DivBranchName": "AdityaBirlaHFL_AL-AP-Vijayawada",
     "Branch_id": 21
+  },
+  {
+    "UserID": 344,
+    "username": "lendersupport@finfort.ind.in",
+    "DivBranchName": "AdityaBirlaHFL-FF-Bangalore",
+    "Branch_id": 79
+  },
+  {
+    "UserID": 345,
+    "username": "manisha.chauhan@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-MH-Thane",
+    "Branch_id": 38
+  },
+  {
+    "UserID": 346,
+    "username": "pratyush.pratap@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-DL-Barakhambha",
+    "Branch_id": 80
+  },
+  {
+    "UserID": 347,
+    "username": "anil.kumawat@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 348,
+    "username": "ashish.upadyay@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 349,
+    "username": "gaurav.dubey@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
+  },
+  {
+    "UserID": 350,
+    "username": "jay.kumawat@adityabirlacapital.com",
+    "DivBranchName": "AdityaBirlaHFL_PL-RJ-Jaipur",
+    "Branch_id": 56
   }
 ]
